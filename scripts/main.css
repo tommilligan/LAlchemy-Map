@@ -1,0 +1,96 @@
+/*colors #DEAEFF and #F8EFFF*/
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/Roboto-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/Roboto-Italic.ttf");
+    font-style: italic, oblique;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/Roboto-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic, oblique;
+}
+
+h1, h2, h3, h4, h5, h6, p, text {
+    font-family: "Roboto", Courier, monospace;
+    color: rgba(0, 0, 0, 1);
+}
+text {
+    font-size: 14;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: inherit;
+}
+.suburban, a.suburban:hover, a.suburban:active {
+    color: rgba(239, 110, 231, 1);
+}
+.chimney_canopy, a.chimney_canopy:hover, a.chimney_canopy:active {
+    color: rgba(239, 159, 110, 1);
+}
+.heavy_industrial, a.heavy_industrial:hover, a.heavy_industrial:active {
+    color: rgba(150, 169, 201, 1);
+}
+.drainage_system, a.drainage_system:hover, a.drainage_system:active {
+    color: rgba(90, 190, 187, 1);
+}
+
+html , body {
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#canvas {
+    top: 40px;
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+}
+#parent0, #parent1 {
+    position: fixed;
+    top: 50px;
+    background-color: #F8EFFF;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+}
+#parent0 {
+    left: 10px;
+}
+#parent1 {
+    left: 210px;
+}
+#holder {
+    width: 100%;
+}
+#github-button, #LA-button {
+    position: fixed;
+    right: 15px;
+    opacity: 0.3;
+}
+#github-button {
+    top: 15px;
+}
+#lA-button {
+    top: 100px;
+}
+#github-button:hover, #LA-button:hover {
+    opacity: 0.8;
+}
