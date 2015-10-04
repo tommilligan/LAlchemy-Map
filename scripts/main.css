@@ -21,7 +21,7 @@
     font-style: italic, oblique;
 }
 
-h1, h2, h3, h4, h5, h6, p, text {
+h1, h2, h3, h4, h5, h6, p, text, input {
     font-family: "Roboto", Courier, monospace;
     color: rgba(0, 0, 0, 1);
 }
@@ -62,20 +62,14 @@ html , body {
     width: 100%;
     height: 100%;
 }
-#parent0, #parent1 {
+#parent-wrapper {
     position: fixed;
-    top: 50px;
+    top: 100px;
     background-color: #F8EFFF;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 50px;
     text-align: center;
     padding: 20px;
-}
-#parent0 {
-    left: 10px;
-}
-#parent1 {
-    left: 210px;
 }
 #holder {
     width: 100%;

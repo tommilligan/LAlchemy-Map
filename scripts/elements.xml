@@ -1,0 +1,26 @@
+<alchemy>
+    <element>
+        <name>lava</name>
+        <parent>earth</parent>
+        <parent>fire</parent>
+        <child>volcano</child>
+        <child>stone</child>
+        <child>lava lamp</child>
+        <child>darth vader</child>
+        <child>obsidian</child>
+        <child>granite</child>
+        <color>#FFAA00</color>
+    </element>
+    <element>
+        <name>lavastorm</name>
+        <parent>lava</parent>
+        <parent>storm</parent>
+        <child>ice age</child>
+        <color>#885500</color>
+    </element>
+    <element>
+        <name>water</name>
+        <child>storm</child>
+        <color>#0000FF</color>
+    </element>
+</alchemy>

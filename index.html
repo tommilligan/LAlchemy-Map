@@ -1,19 +1,28 @@
 <head>
-<link rel="stylesheet" type="text/css" href="scripts/main.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
-<script src="scripts/jsnetworkx.js"></script>
+    <link rel="stylesheet" type="text/css" href="scripts/main.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script src="scripts/jsnetworkx.js"></script>
 </head>
 <body>
-<!-- Floating Buttons -->
-<div id='github-button'><a href='https://github.com/tommilligan/LAlchemy-Map' target="_blank"><img src='assets/GitHub-Mark-64px.png' alt='GitHub logo' title=' RainWorld-Map on GitHub' /></a></div>
-<div id='LA-button'><a href='https://littlealchemy.com/' target="_blank"><img src='assets/LAlchemy-Logo-64px.png' alt='Little Alchemy logo' title='Play Little Alchemy' /></a></div>
-<div>
-<p>Hello world!</p>
-</div>
-<div id="parent-wrapper">
-<div id="parent0"></div>
-<div id="parent1"></div>
-</div>
-<div id="canvas"></div>
-<script src="scripts/canvas.js"></script>
+    <!-- Floating Buttons -->
+    <div id='github-button'><a href='https://github.com/tommilligan/LAlchemy-Map' target="_blank"><img src='assets/GitHub-Mark-64px.png' alt='GitHub logo' title=' RainWorld-Map on GitHub' /></a></div>
+    <div id='LA-button'><a href='https://littlealchemy.com/' target="_blank"><img src='assets/LAlchemy-Logo-64px.png' alt='Little Alchemy logo' title='Play Little Alchemy' /></a></div>
+    <div id="search-wrapper">
+        <p>Pick an element:</p>
+        <p>
+            <form id="searchform" onsubmit="return false;">
+                <span>
+                    <input type="text" id="search" autocomplete="off" />
+                    <input type="submit" style="display:none"/>
+                </span>
+                <span id="output"></span>
+            </form>
+        </p>
+        <p id="message"></p>
+    </div>
+    <div id="parent-wrapper">
+    </div>
+    <div id="canvas"></div>
+    <script src="scripts/canvas.js"></script>
 </body>
