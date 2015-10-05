@@ -13,10 +13,15 @@
         <p>
             <form id="searchform" onsubmit="return false;">
                 <span>
+                    <select id="recurse_levels">
+                        <option value=1>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                    </select>
                     <input type="text" id="search" autocomplete="off" />
-                    <input type="submit" style="display:none"/>
+                    <input type="submit" style="display:none" />
                 </span>
-                <span id="output"></span>
+                <span id="output">earth, air, fire, water,</span>
             </form>
         </p>
         <p id="message"></p>

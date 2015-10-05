@@ -21,7 +21,7 @@
     font-style: italic, oblique;
 }
 
-h1, h2, h3, h4, h5, h6, p, text, input {
+h1, h2, h3, h4, h5, h6, p, text, input, span {
     font-family: "Roboto", Courier, monospace;
     color: rgba(0, 0, 0, 1);
 }
