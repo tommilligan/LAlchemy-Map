@@ -1,10 +1,3 @@
-<!--
-TODO
-Design
-Clickable redraw
-Draw multiple starting points?
-//-->
-
 <head>
     <link rel="stylesheet" type="text/css" href="scripts/main.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
@@ -13,40 +6,53 @@ Draw multiple starting points?
 </head>
 <body>
     <!-- Floating Buttons -->
-    <div id='github-button'><a href='https://github.com/tommilligan/LAlchemy-Map' target="_blank"><img src='assets/GitHub-Mark-64px.png' alt='GitHub logo' title=' RainWorld-Map on GitHub' /></a></div>
-    <div id='LA-button'><a href='https://littlealchemy.com/' target="_blank"><img src='assets/LAlchemy-Logo-64px.png' alt='Little Alchemy logo' title='Play Little Alchemy' /></a></div>
     <div id='counter-wrapper'>
         <div id="counterbox">
             <span id="counter">type your query above</span>
         </div>
     </div>
+    <div id="head-wrapper">
+        <div id='github-button'><a href='https://github.com/tommilligan/LAlchemy-Map' target="_blank"><img src='assets/GitHub-Mark-64px.png' alt='GitHub logo' title=' RainWorld-Map on GitHub' /></a></div>
+        <form id="searchform" onsubmit="return false;">
+            <div id="searchbar">
+                <span>Search up to the 
+                    <select id="recurse_levels">
+                        <option value=1>1st</option>
+                        <option value=2>2nd</option>
+                        <option value=3>3rd</option>
+                        <option value=3>4th</option>
+                        <option value=3>5th</option>
+                        <option value=3>10th</option>
+                    </select>
+                     child of 
+                    <input type="text" id="search1" autocomplete="off" />
+                    <input type="submit" style="display:none" />
+                     ~ 
+                </span>
+                <span id="output"></span>
+            </div>
+            <div id="presetsbar">
+                <span>try: 
+                    <span class="jslink" id="plotAllElements">the core four</span>, 
+                    <span class="jslink namecontainer">human</span>, 
+                    <span class="jslink namecontainer">metal</span>, 
+                    <span class="jslink namecontainer">time</span>, 
+                    <span class="jslink namecontainer">plant</span>, 
+                    <span class="jslink namecontainer">house</span>, 
+                </span>
+            </div>
+            <div id="addField-wrapper">
+                <span id="addField" class="jslink">+ add field</span>
+            </div>
+        </form>
+    </div>
+    <div id="canvas">
+    <div id='LA-button'><a href='https://littlealchemy.com/' target="_blank"><img src='assets/LAlchemy-Logo-64px.png' alt='Little Alchemy logo' title='Play Little Alchemy' /></a></div>
     <div id="parent-wrapper">
         <div id="parentbox">
             <span id="parents">type your query above</span>
         </div>
     </div>
-    <div id="head-wrapper">
-        <div id="searchbar">
-            <form id="searchform" onsubmit="return false;">
-                <span>
-                    <input type="text" id="search" autocomplete="off" />
-                    <select id="recurse_levels">
-                        <option value=1>1</option>
-                        <option value=2>2</option>
-                        <option value=3>3</option>
-                        <option value=3>4</option>
-                        <option value=3>5</option>
-                        <option value=3>10</option>
-                    </select>
-                    <input type="submit" style="display:none" />
-                </span>
-                <span id="output">earth, air, fire, water,</span>
-            </form>
-        </div>
-        <div id="presetsbar">
-            <span class="jslink" id="plotAllElements">&gt; see all elements</span>
-        </div>
     </div>
-    <div id="canvas"></div>
     <script src="scripts/canvas.js"></script>
 </body>

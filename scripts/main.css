@@ -33,6 +33,7 @@ a, .jslink {
     text-decoration: none;
     color: #ad35ff;
     cursor: pointer;
+    font-weight: bold;
 }
 a:link, a:visited {
     color: inherit;
@@ -48,8 +49,11 @@ html , body {
     padding: 0;
     border: 0;
 }
+form {
+    margin: 0px;
+}
 #head-wrapper {
-    background-color: rgba(255, 232, 244, 1);
+    background-color: #FBE7FF;
     padding: 20px;
 }
 #searchbar {
@@ -58,7 +62,7 @@ html , body {
     height: 24px;
     overflow: hidden;
 }
-#presetsbar {
+#presetsbar, #addField-wrapper, input.searchText {
     margin-top: 5px;
     font-size: 12px;
 }
@@ -71,35 +75,31 @@ html , body {
     width: 100%;
 }
 #counter-wrapper, #parent-wrapper{
-    position: fixed;
     width: 300px;
     left: 15px;
     z-index: 90;
 }
 #counter-wrapper {
+    position: fixed;
     bottom: 15px;
 }
 #parent-wrapper{
-    top: 100px;
+    position: absolute;
+    top: 15px;
 }
 #counterbox, #parentbox {
     padding: 4px;
     display: inline-block;
     font-size: 12px;
-    background-color: rgba(210, 210, 210, 0.5);
+    background-color: rgba(240, 240, 240, 0.85);
     z-index: 100;
 }
 #github-button, #LA-button {
-    position: fixed;
+    position: absolute;
     right: 15px;
+    top: 15px;
     opacity: 0.3;
     z-index: 100;
-}
-#github-button {
-    top: 15px;
-}
-#lA-button {
-    top: 100px;
 }
 #github-button:hover, #LA-button:hover {
     opacity: 0.8;

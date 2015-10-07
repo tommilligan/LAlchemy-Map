@@ -22,11 +22,16 @@ function increase_brightness(hex, percent){
 function log10(val) {
   return Math.log(val) / Math.LN10;
 }
+function addElementField() { // Add another field to form http://stackoverflow.com/questions/6099301/dynamically-adding-html-form-field-using-jquery
+    var newField = $('<div><input type="text" class="searchText" autocomplete="off" /></div>');
+    $('#addField-wrapper').before(newField);
+    return true
+}
 
 var XMLpath = "scripts/elements.xml";
 //On keyup from searchbox, search xml for name - http://stackoverflow.com/questions/12118057/search-an-xml-file-and-display-results-with-javascript
 function parseXML(xml){
-    var searchFor = $('#search').val();
+    var searchFor = $('#search1').val();
     var reg = new RegExp(searchFor, "i");
     $('#output').empty();
     $(xml).find('element').each(function(){
@@ -38,7 +43,7 @@ function parseXML(xml){
     });    
 }
 $(document).ready(function(){
-    $('#search').on('keyup', function(){
+    $('#search1').on('keyup', function(){
         $.ajax({
             type: "GET",
             url: XMLpath,
@@ -82,9 +87,7 @@ function updateSVG(xml, user_input, G) { // if wishing to append, provide G: jsN
     
     //Empty canvas if not appending
     if(G === false) {
-        console.log('clearing');
         var G = new jsnx.DiGraph();
-        $('#canvas').empty();
         $('#parents').empty();
     }
     else {
@@ -98,9 +101,13 @@ function updateSVG(xml, user_input, G) { // if wishing to append, provide G: jsN
     
     // Write parent names in HTML
     $('#parents').append('Possible parents of '+ename+': ');
+    var uniqueParents = [];
     $(central_element).find('parent').each(function(){
         var pname = $(this).text();
-        $('#parents').append('<span class="jslink namecontainer">'+pname+'</span>, ');
+        if($.inArray(pname, uniqueParents) == -1) {
+            uniqueParents.push(pname);
+            $('#parents').append('<span class="jslink namecontainer">'+pname+'</span>, ');
+        }
     });
     
     // Add nodes and edges to graph
@@ -213,8 +220,15 @@ function startPage(xml) {
         }
     });
     
+    $('#addField').click(function(){
+        addElementField();
+    });
     $('#searchform').submit(function(){
-        updateSVG(xml, $('#search').val());
+        G = updateSVG(xml, $('#search1').val());
+        $('.searchText').each(function() {
+            console.log($(this).val());
+            G = updateSVG(xml, $(this).val(), G);
+        });
     });
     $("#plotAllElements").click(function() {
         G = updateSVG(xml, 'earth');
