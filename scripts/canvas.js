@@ -1,9 +1,23 @@
 //Rewrite code flow so that one fucntion returns an XMLelement of a single LA element, from ewhich data can be extracted
 
 //Color shader function - http://stackoverflow.com/questions/5560248/programmatically-lighten-or-darken-a-hex-color-or-rgb-and-blend-colors
-function shadeColor2(color, percent) {   // (#hexval, decimal in range -1 to 1)
-    var f=parseInt(color.slice(1),16),t=percent<0?0:255,p=percent<0?percent*-1:percent,R=f>>16,G=f>>8&0x00FF,B=f&0x0000FF;
-    return "#"+(0x1000000+(Math.round((t-R)*p)+R)*0x10000+(Math.round((t-G)*p)+G)*0x100+(Math.round((t-B)*p)+B)).toString(16).slice(1);
+function increase_brightness(hex, percent){
+    // strip the leading # if it's there
+    hex = hex.replace(/^\s*#|\s*$/g, '');
+
+    // convert 3 char codes --> 6, e.g. `E0F` --> `EE00FF`
+    if(hex.length == 3){
+        hex = hex.replace(/(.)/g, '$1$1');
+    }
+
+    var r = parseInt(hex.substr(0, 2), 16),
+        g = parseInt(hex.substr(2, 2), 16),
+        b = parseInt(hex.substr(4, 2), 16);
+
+    return '#' +
+       ((0|(1<<8) + r + (256 - r) * percent / 100).toString(16)).substr(1) +
+       ((0|(1<<8) + g + (256 - g) * percent / 100).toString(16)).substr(1) +
+       ((0|(1<<8) + b + (256 - b) * percent / 100).toString(16)).substr(1);
 }
 function log10(val) {
   return Math.log(val) / Math.LN10;
@@ -36,56 +50,54 @@ $(document).ready(function(){
 
 //On submit from searchbox, search xml for name & update svg
 function uniqueXML(xml, attribute_name, attribute_value){
-    var element = $(xml).find(attribute_name).filter(function(){
-        return $(this).text() == attribute_value;
-    }).closest('element');
-    $('#message').empty();
-    if(element.length < 1) {
-        $('#message').append("<i>invalid search: "+attribute_name+": "+attribute_value+"</i>");
-        console.log("invalid search: "+attribute_name+": "+attribute_value);
-        return false;
-    }
-    else {
-        return element;
-    }
+    
 }
 function add_SVG_children(G, xml, ename, rl) { //Adds children of node ename to the graph object G, using xml. Assumes ename is already a node
-    $(xml).find('parent').each(function(){
-        var check_ename = $(this).text();
-        if(check_ename == ename){
-            child_element = $(this).closest('element');
-            cname = child_element.find('name').text();
-            ccolor = child_element.find('color').text();
-            r_rl_ratio = 0.5; //Alter this to change how fast nodes reduce in size
-            rsize = Math.ceil(10 * (rl * r_rl_ratio)); 
-            G.addNode(cname, {size: rsize, color: ccolor});
-            G.addEdge(ename, cname);
-            
-            if(rl > 1) {
-                add_SVG_children(G, xml, cname, rl-1);
-            }
+    $(xml).find('parent').filter(function(){
+        return $(this).text() == ename;
+    }).each(function(){
+        child_element = $(this).closest('element');
+        cname = child_element.find('name').text();
+        ccolor = child_element.find('color').text();
+        r_rl_ratio = 0.5; //Alter this to change how fast nodes reduce in size
+        rsize = Math.ceil(10 * (rl * r_rl_ratio)); 
+        G.addNode(cname, {size: rsize, color: ccolor});
+        G.addEdge(ename, cname);
+        
+        if(rl > 1) {
+            add_SVG_children(G, xml, cname, rl-1);
         }
     });
 }    
 function updateSVG(xml) {
+    
     //Empty canvas
     $('#canvas').empty();
+    $('#message').empty();
+    user_input = $('#search').val()
     
     //New jsNetworkX object
-    var G = new jsnx.Graph();
+    var G = new jsnx.DiGraph();
      
     //Add main element
-    var central_element = uniqueXML(xml, 'name', $('#search').val())
+    var central_element = $(xml).find('name').filter(function(){
+        return $(this).text() == user_input;
+    }).first().closest('element');
+    if(central_element.length < 1) {
+        $('#message').append("<i>invalid search: "+user_input+"</i><br><br>");
+        return false;
+    }
+    
     var ename = $(central_element).find('name').text();
     G.addNode(ename, {size: 40, color: $(central_element).find('color').text()})
     
     // Write parent names in HTML
-    $('#parent-wrapper').empty();
+    $('#parents').empty();
+    $('#parents').append('Possible parents: ');
     $(central_element).find('parent').each(function(){
         var pname = $(this).text();
-        var phtml = '<p>'+pname+'</p>';
-        $('#parent-wrapper').append(phtml);
-    }); 
+        $('#parents').append(pname+', ');
+    });
     
     // Add nodes and edges to graph
     var rl = $('#recurse_levels').val();
@@ -104,6 +116,9 @@ function updateSVG(xml) {
         G.addNode(node_list[i], {size: radius}); // Modify here ??? Modify or fade colour here?
     }
     
+    //Message updates
+    $('#message').append("displaying "+node_list.length+" of 550 elements");
+    
     //Draw graph
     jsnx.draw(G, {
         element: '#canvas',  
@@ -116,6 +131,8 @@ function updateSVG(xml) {
         nodeAttr: {
             r: function(d) {
                 return d.data.size*1; // Adjust this for scale factor if needed. Adjust size property for size
+            //.call(dragCircle)
+            //.on('click', clickCircle);
             }
         },
         nodeStyle: {
@@ -123,7 +140,7 @@ function updateSVG(xml) {
                 return d.data.color;
             },
             fill: function(d) {
-                return shadeColor2(d.data.color, 0.8);
+                return increase_brightness(d.data.color, 80);
             },
             cursor: 'pointer'
         },
@@ -132,6 +149,18 @@ function updateSVG(xml) {
             'stroke-width': 4
         }
     });
+    
+    //Add interaction functionality
+    svg_nodes = d3.selectAll('.node');
+    svg_nodes.on('dragstart', function () {
+        d3.event.sourceEvent.stopPropagation();
+    });
+    svg_nodes.on('click', function () {
+        if (d3.event.defaultPrevented) return; // click suppressed
+        console.log('clicked: '+d3.event['path'][0]['__data__']['node']);
+        // insert new drwaw command here
+    });
+    
 }
 $(document).ready(function(){
     $('#searchform').submit(function(){
@@ -144,22 +173,22 @@ $(document).ready(function(){
     });
 });
 
-
+$(document).ready(function(){
+    $("#plotAllElements").click(function() {
+        alert( "Handler for .click() called." );
+    });
+});
 
 //New jsNetworkX object
 var G = new jsnx.Graph();
  
 //Get data
-var element = "lava"
-var parents = ["earth", "fire"]
-var children = ["volcano", "stone", "lava lamp", "darth vader", "obsidian", "granite"];
-
-// Write parent names in HTML
-document.getElementById("parent-wrapper").innerHTML = parents[0]+parents[1]
+var element = "little alchemy"
+var children = ["combine", "elements", "make", "anything", "network", "discover", "simple"];
 
 // Add nodes to graph
-G.addNode(element, {size: 20, color: '#DEAEFF'})
-G.addNodesFrom(children, {size: 10, color: '#DEAEFF'}); //in format [('',{}), ('',{}), ('',{})], {}
+G.addNode(element, {size: 60, color: '#ad35ff'})
+G.addNodesFrom(children, {size: 30, color: '#DEAEFF'});
 
 // Connect nodes with edges
 for (i=0; i<children.length; ++i) {
@@ -177,7 +206,7 @@ jsnx.draw(G, {
     },
     nodeAttr: {
         r: function(d) {
-            return d.data.size*1.5;
+            return d.data.size*1;
         }
     },
     nodeStyle: {
@@ -185,7 +214,7 @@ jsnx.draw(G, {
             return d.data.color;
         },
         fill: function(d) {
-            return shadeColor2(d.data.color, 0.8);
+            return increase_brightness(d.data.color, 80);
         },
         cursor: 'pointer'
     },

@@ -3,79 +3,79 @@
         <name>acid rain</name>
         <parent>rain</parent>
         <parent>smoke</parent>
-        <color></color>
+        <color>#d4ff00</color>
     </element>
     <element>
         <name>air</name>
         <parent>basic element</parent>
         <parent>basic element</parent>
-        <color></color>
+        <color>#0084ff</color>
     </element>
     <element>
         <name>airplane</name>
         <parent>metal</parent>
         <parent>bird</parent>
-        <color></color>
+        <color>#ff3100</color>
     </element>
     <element>
         <name>alarm clock</name>
         <parent>sound</parent>
         <parent>clock</parent>
-        <color></color>
+        <color>#bfff00</color>
     </element>
     <element>
         <name>alcohol</name>
         <parent>time</parent>
         <parent>fruit</parent>
-        <color></color>
+        <color>#ff8c00</color>
     </element>
     <element>
         <name>algae</name>
         <parent>water</parent>
         <parent>plant</parent>
-        <color></color>
+        <color>#abff00</color>
     </element>
     <element>
         <name>alien</name>
         <parent>space</parent>
         <parent>life</parent>
-        <color></color>
+        <color>#06f</color>
     </element>
     <element>
         <name>allergy</name>
         <parent>dust</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#ffe400</color>
     </element>
     <element>
         <name>alligator</name>
         <parent>swamp</parent>
         <parent>lizard</parent>
-        <color></color>
+        <color>#d1ff00</color>
     </element>
     <element>
         <name>alpaca</name>
         <parent>mountain</parent>
         <parent>sheep</parent>
-        <color></color>
+        <color>#d4ff00</color>
     </element>
     <element>
         <name>ambulance</name>
         <parent>hospital</parent>
         <parent>car</parent>
-        <color></color>
+        <color>#ff001f</color>
     </element>
     <element>
         <name>angel</name>
         <parent>bird</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#4c00ff</color>
     </element>
     <element>
         <name>angler</name>
         <parent>human</parent>
         <parent>fishing rod</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>ant</name>
@@ -83,55 +83,55 @@
         <parent>wild animal</parent>
         <parent>sugar</parent>
         <parent>wild animal</parent>
-        <color></color>
+        <color>#ff4900</color>
     </element>
     <element>
         <name>antarctica</name>
         <parent>desert</parent>
         <parent>snow</parent>
-        <color></color>
+        <color>#006cff</color>
     </element>
     <element>
         <name>aquarium</name>
         <parent>water</parent>
         <parent>glass</parent>
-        <color></color>
+        <color>#00b1ff</color>
     </element>
     <element>
         <name>archipelago</name>
         <parent>isle</parent>
         <parent>isle</parent>
-        <color></color>
+        <color>#0086ff</color>
     </element>
     <element>
         <name>armadillo</name>
         <parent>wild animal</parent>
         <parent>armor</parent>
-        <color></color>
+        <color>#ffeb00</color>
     </element>
     <element>
         <name>armor</name>
         <parent>metal</parent>
         <parent>tool</parent>
-        <color></color>
+        <color>#ff7f00</color>
     </element>
     <element>
         <name>ash</name>
         <parent>energy</parent>
         <parent>volcano</parent>
-        <color></color>
+        <color>#f50</color>
     </element>
     <element>
         <name>astronaut</name>
         <parent>human</parent>
         <parent>moon</parent>
-        <color></color>
+        <color>#000fff</color>
     </element>
     <element>
         <name>astronaut icecream</name>
         <parent>astronaut</parent>
         <parent>ice cream</parent>
-        <color></color>
+        <color>#ff7400</color>
     </element>
     <element>
         <name>aurora</name>
@@ -141,220 +141,220 @@
         <parent>sky</parent>
         <parent>antarctica</parent>
         <parent>atmosphere</parent>
-        <color></color>
+        <color>#00ffb9</color>
     </element>
     <element>
         <name>atmosphere</name>
         <parent>air</parent>
         <parent>pressure</parent>
-        <color></color>
+        <color>#005cff</color>
     </element>
     <element>
         <name>atomic bomb</name>
         <parent>energy</parent>
         <parent>explosion</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>atomic fireballs</name>
         <parent>atomic bomb</parent>
         <parent>fire</parent>
-        <color></color>
+        <color>#ff4600</color>
     </element>
     <element>
         <name>avalanche</name>
         <parent>energy</parent>
         <parent>snow</parent>
-        <color></color>
+        <color>#008eff</color>
     </element>
     <element>
         <name>axe</name>
         <parent>blade</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#ff8e00</color>
     </element>
     <element>
         <name>bacon</name>
         <parent>fire</parent>
         <parent>pig</parent>
-        <color></color>
+        <color>#ff4900</color>
     </element>
     <element>
         <name>bacteria</name>
         <parent>swamp</parent>
         <parent>life</parent>
-        <color></color>
+        <color>#00ff48</color>
     </element>
     <element>
         <name>baker</name>
         <parent>human</parent>
         <parent>bread</parent>
-        <color></color>
+        <color>#f40</color>
     </element>
     <element>
         <name>bakery</name>
         <parent>house</parent>
         <parent>baker</parent>
-        <color></color>
+        <color>#ff7500</color>
     </element>
     <element>
         <name>banana</name>
         <parent>monkey</parent>
         <parent>fruit</parent>
-        <color></color>
+        <color>#ffc500</color>
     </element>
     <element>
         <name>banana bread</name>
         <parent>bread</parent>
         <parent>banana</parent>
-        <color></color>
+        <color>#f70</color>
     </element>
     <element>
         <name>bandage</name>
         <parent>blood</parent>
         <parent>fabric</parent>
-        <color></color>
+        <color>#ff6d00</color>
     </element>
     <element>
         <name>bank</name>
         <parent>house</parent>
         <parent>gold</parent>
         <parent>money</parent>
-        <color></color>
+        <color>#fc0</color>
     </element>
     <element>
         <name>barn</name>
         <parent>house</parent>
         <parent>livestock</parent>
-        <color></color>
+        <color>#ffd300</color>
     </element>
     <element>
         <name>bat</name>
         <parent>sky</parent>
         <parent>mouse</parent>
-        <color></color>
+        <color>#ff6000</color>
     </element>
     <element>
         <name>batman</name>
         <parent>bat</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#0f9</color>
     </element>
     <element>
         <name>batter</name>
         <parent>flour</parent>
         <parent>milk</parent>
-        <color></color>
+        <color>#ffd200</color>
     </element>
     <element>
         <name>bayonet</name>
         <parent>blade</parent>
         <parent>gun</parent>
-        <color></color>
+        <color>#f01</color>
     </element>
     <element>
         <name>bbq</name>
         <parent>campfire</parent>
         <parent>meat</parent>
         <parent>garden</parent>
-        <color></color>
+        <color>#ff6c00</color>
     </element>
     <element>
         <name>beach</name>
         <parent>water</parent>
         <parent>sand</parent>
-        <color></color>
+        <color>#00afff</color>
     </element>
     <element>
         <name>beaver</name>
         <parent>wild animal</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#ff7400</color>
     </element>
     <element>
         <name>bee</name>
         <parent>flour</parent>
         <parent>wild animal</parent>
-        <color></color>
+        <color>#fa0</color>
     </element>
     <element>
         <name>beehive</name>
         <parent>house</parent>
         <parent>bee</parent>
-        <color></color>
+        <color>#ff8d00</color>
     </element>
     <element>
         <name>beer</name>
         <parent>alcohol</parent>
         <parent>wheat</parent>
-        <color></color>
+        <color>#f90</color>
     </element>
     <element>
         <name>bicycle</name>
         <parent>wheel</parent>
         <parent>wheel</parent>
-        <color></color>
+        <color>#ff8600</color>
     </element>
     <element>
         <name>bird</name>
         <parent>sky</parent>
         <parent>egg</parent>
-        <color></color>
+        <color>#ffbf00</color>
     </element>
     <element>
         <name>birdhouse</name>
         <parent>bird</parent>
         <parent>house</parent>
-        <color></color>
+        <color>#ff7b00</color>
     </element>
     <element>
         <name>black hole</name>
         <parent>star</parent>
         <parent>pressure</parent>
-        <color></color>
+        <color>#004aff</color>
     </element>
     <element>
         <name>blade</name>
         <parent>stone</parent>
         <parent>metal</parent>
-        <color></color>
+        <color>#ff0f00</color>
     </element>
     <element>
         <name>blender</name>
         <parent>blade</parent>
         <parent>glass</parent>
         <parent>electricity</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>blizzard</name>
         <parent>snow</parent>
         <parent>wind</parent>
-        <color></color>
+        <color>#0074ff</color>
     </element>
     <element>
         <name>blood</name>
         <parent>human</parent>
         <parent>blade</parent>
-        <color></color>
+        <color>#ff0012</color>
     </element>
     <element>
         <name>boat</name>
         <parent>water</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#f05</color>
     </element>
     <element>
         <name>boiler</name>
         <parent>metal</parent>
         <parent>steam</parent>
-        <color></color>
+        <color>#0046ff</color>
     </element>
     <element>
         <name>bone</name>
         <parent>time</parent>
         <parent>corpse</parent>
-        <color></color>
+        <color>#ff9d00</color>
     </element>
     <element>
         <name>bonsai tree</name>
@@ -362,152 +362,152 @@
         <parent>tree</parent>
         <parent>scissors</parent>
         <parent>tree</parent>
-        <color></color>
+        <color>#c8ff00</color>
     </element>
     <element>
         <name>book</name>
         <parent>paper</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#95ff00</color>
     </element>
     <element>
         <name>bread</name>
         <parent>fire</parent>
         <parent>dough</parent>
-        <color></color>
+        <color>#ff7e00</color>
     </element>
     <element>
         <name>brick</name>
         <parent>fire</parent>
         <parent>mud</parent>
-        <color></color>
+        <color>#ff6500</color>
     </element>
     <element>
         <name>bridge</name>
         <parent>river</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#00a5ff</color>
     </element>
     <element>
         <name>broom</name>
         <parent>wood</parent>
         <parent>hay</parent>
-        <color></color>
+        <color>#ffb600</color>
     </element>
     <element>
         <name>bullet</name>
         <parent>gunpowder</parent>
         <parent>metal</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>bulletproof vest</name>
         <parent>armor</parent>
         <parent>bullet</parent>
-        <color></color>
+        <color>#00f</color>
     </element>
     <element>
         <name>bus</name>
         <parent>car</parent>
         <parent>car</parent>
-        <color></color>
+        <color>#ff9b00</color>
     </element>
     <element>
         <name>butcher</name>
         <parent>human</parent>
         <parent>meat</parent>
-        <color></color>
+        <color>#ff4c00</color>
     </element>
     <element>
         <name>butter</name>
         <parent>milk</parent>
         <parent>pressure</parent>
-        <color></color>
+        <color>#ffd100</color>
     </element>
     <element>
         <name>butterfly</name>
         <parent>flower</parent>
         <parent>wild animal</parent>
-        <color></color>
+        <color>#ff7500</color>
     </element>
     <element>
         <name>cactus</name>
         <parent>plant</parent>
         <parent>sand</parent>
-        <color></color>
+        <color>#df0</color>
     </element>
     <element>
         <name>cadbury eggs</name>
         <parent>chocolate</parent>
         <parent>egg</parent>
-        <color></color>
+        <color>#ff5100</color>
     </element>
     <element>
         <name>cake</name>
         <parent>dough</parent>
         <parent>candle</parent>
-        <color></color>
+        <color>#ff5900</color>
     </element>
     <element>
         <name>camel</name>
         <parent>desert</parent>
         <parent>wild animal</parent>
-        <color></color>
+        <color>#ffb000</color>
     </element>
     <element>
         <name>campfire</name>
         <parent>fire</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#ff5900</color>
     </element>
     <element>
         <name>candle</name>
         <parent>fire</parent>
         <parent>wax</parent>
-        <color></color>
+        <color>#ff2400</color>
     </element>
     <element>
         <name>candy cane</name>
         <parent>sugar</parent>
         <parent>christmas tree</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>cannon</name>
         <parent>gunpowder</parent>
         <parent>pirate ship</parent>
         <parent>castle</parent>
-        <color></color>
+        <color>#b4ff00</color>
     </element>
     <element>
         <name>car</name>
         <parent>metal</parent>
         <parent>wheel</parent>
-        <color></color>
+        <color>#0040ff</color>
     </element>
     <element>
         <name>caramel</name>
         <parent>fire</parent>
         <parent>sugar</parent>
-        <color></color>
+        <color>#ff7a00</color>
     </element>
     <element>
         <name>caramelo</name>
         <parent>chocolate</parent>
         <parent>caramel</parent>
-        <color></color>
+        <color>#ff5200</color>
     </element>
     <element>
         <name>caramel apple</name>
         <parent>orchard</parent>
         <parent>caramel</parent>
-        <color></color>
+        <color>#ff4a00</color>
     </element>
     <element>
         <name>carbon dioxide</name>
         <parent>human</parent>
         <parent>oxygen</parent>
-        <color></color>
+        <color>#0089ff</color>
     </element>
     <element>
         <name>carrot</name>
@@ -515,248 +515,248 @@
         <parent>vegetable</parent>
         <parent>sun</parent>
         <parent>snowman</parent>
-        <color></color>
+        <color>#ff7100</color>
     </element>
     <element>
         <name>cart</name>
         <parent>wood</parent>
         <parent>wheel</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>castle</name>
         <parent>knight</parent>
         <parent>house</parent>
-        <color></color>
+        <color>#00ffdf</color>
     </element>
     <element>
         <name>cat</name>
         <parent>wild animal</parent>
         <parent>milk</parent>
-        <color></color>
+        <color>#bdff00</color>
     </element>
     <element>
         <name>catnip</name>
         <parent>cat</parent>
         <parent>plant</parent>
-        <color></color>
+        <color>#ff0</color>
     </element>
     <element>
         <name>caviar</name>
         <parent>human</parent>
         <parent>hard roe</parent>
-        <color></color>
+        <color>#00ffbf</color>
     </element>
     <element>
         <name>centaur</name>
         <parent>human</parent>
         <parent>horse</parent>
-        <color></color>
+        <color>#ffa600</color>
     </element>
     <element>
         <name>cereal</name>
         <parent>milk</parent>
         <parent>wheat</parent>
-        <color></color>
+        <color>#ff7300</color>
     </element>
     <element>
         <name>chainsaw</name>
         <parent>electricity</parent>
         <parent>axe</parent>
-        <color></color>
+        <color>#ff1700</color>
     </element>
     <element>
         <name>chameleon</name>
         <parent>rainbow</parent>
         <parent>lizard</parent>
-        <color></color>
+        <color>#e4ff00</color>
     </element>
     <element>
         <name>charcoal</name>
         <parent>fire</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>cheese</name>
         <parent>time</parent>
         <parent>milk</parent>
-        <color></color>
+        <color>#ffc300</color>
     </element>
     <element>
         <name>cheeseburger</name>
         <parent>hamburger</parent>
         <parent>cheese</parent>
-        <color></color>
+        <color>#ff9b00</color>
     </element>
     <element>
         <name>chicken</name>
         <parent>bird</parent>
         <parent>livestock</parent>
-        <color></color>
+        <color>#f50</color>
     </element>
     <element>
         <name>chicken soup</name>
         <parent>chicken</parent>
         <parent>water</parent>
-        <color></color>
+        <color>#ff8a00</color>
     </element>
     <element>
         <name>chicken wing</name>
         <parent>chicken</parent>
         <parent>bone</parent>
-        <color></color>
+        <color>#ff5700</color>
     </element>
     <element>
         <name>chimney</name>
         <parent>house</parent>
         <parent>fireplace</parent>
-        <color></color>
+        <color>#0040ff</color>
     </element>
     <element>
         <name>chocolate</name>
         <parent>willy wonka</parent>
         <parent>river</parent>
-        <color></color>
+        <color>#ff6d00</color>
     </element>
     <element>
         <name>chocolate milk</name>
         <parent>chocolate</parent>
         <parent>milk</parent>
-        <color></color>
+        <color>#f30</color>
     </element>
     <element>
         <name>christmas stocking</name>
         <parent>fireplace</parent>
         <parent>wool</parent>
-        <color></color>
+        <color>#ff0700</color>
     </element>
     <element>
         <name>christmas tree</name>
         <parent>light bulb</parent>
         <parent>tree</parent>
-        <color></color>
+        <color>#ff5900</color>
     </element>
     <element>
         <name>cigarette</name>
         <parent>paper</parent>
         <parent>tobacco</parent>
-        <color></color>
+        <color>#ff7f00</color>
     </element>
     <element>
         <name>city</name>
         <parent>village</parent>
         <parent>village</parent>
-        <color></color>
+        <color>#00b1ff</color>
     </element>
     <element>
         <name>clay</name>
         <parent>mud</parent>
         <parent>sand</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>clock</name>
         <parent>electricity</parent>
         <parent>time</parent>
-        <color></color>
+        <color>#ff0</color>
     </element>
     <element>
         <name>cloud</name>
         <parent>air</parent>
         <parent>steam</parent>
-        <color></color>
+        <color>#007fff</color>
     </element>
     <element>
         <name>coal</name>
         <parent>plant</parent>
         <parent>pressure</parent>
-        <color></color>
+        <color>#007fff</color>
     </element>
     <element>
         <name>coconut</name>
         <parent>palm</parent>
         <parent>fruit</parent>
-        <color></color>
+        <color>#ff7f00</color>
     </element>
     <element>
         <name>coconut milk</name>
         <parent>coconut</parent>
         <parent>tool</parent>
-        <color></color>
+        <color>#ff8900</color>
     </element>
     <element>
         <name>coffin</name>
         <parent>wood</parent>
         <parent>corpse</parent>
-        <color></color>
+        <color>#ff6a00</color>
     </element>
     <element>
         <name>cold</name>
         <parent>rain</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#006bff</color>
     </element>
     <element>
         <name>computer</name>
         <parent>nerd</parent>
         <parent>tool</parent>
-        <color></color>
+        <color>#0090ff</color>
     </element>
     <element>
         <name>computer mouse</name>
         <parent>computer</parent>
         <parent>mouse</parent>
-        <color></color>
+        <color>#05f</color>
     </element>
     <element>
         <name>confetti</name>
         <parent>paper</parent>
         <parent>blade</parent>
         <parent>scissors</parent>
-        <color></color>
+        <color>#ff0f00</color>
     </element>
     <element>
         <name>constellation</name>
         <parent>star</parent>
         <parent>star</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>cookie</name>
         <parent>sugar</parent>
         <parent>dough</parent>
-        <color></color>
+        <color>#ff8200</color>
     </element>
     <element>
         <name>cookie dough</name>
         <parent>cookie</parent>
         <parent>dough</parent>
-        <color></color>
+        <color>#ffa200</color>
     </element>
     <element>
         <name>corpse</name>
         <parent>human</parent>
         <parent>gun</parent>
-        <color></color>
+        <color>#ff3a00</color>
     </element>
     <element>
         <name>cotton</name>
         <parent>cloud</parent>
         <parent>plant</parent>
-        <color></color>
+        <color>#03f</color>
     </element>
     <element>
         <name>cotton candy</name>
         <parent>sugar</parent>
         <parent>electricity</parent>
-        <color></color>
+        <color>#4c00ff</color>
     </element>
     <element>
         <name>cow</name>
         <parent>livestock</parent>
         <parent>grass</parent>
-        <color></color>
+        <color>#92ff00</color>
     </element>
     <element>
         <name>crayon</name>
@@ -764,92 +764,92 @@
         <parent>wax</parent>
         <parent>rainbow</parent>
         <parent>pencil</parent>
-        <color></color>
+        <color>#f50</color>
     </element>
     <element>
         <name>crow</name>
         <parent>bird</parent>
         <parent>scarecrow</parent>
         <parent>field</parent>
-        <color></color>
+        <color>#64ff00</color>
     </element>
     <element>
         <name>crystal ball</name>
         <parent>glass</parent>
         <parent>witch</parent>
-        <color></color>
+        <color>#ff0</color>
     </element>
     <element>
         <name>cuckoo</name>
         <parent>clock</parent>
         <parent>bird</parent>
-        <color></color>
+        <color>#ffd100</color>
     </element>
     <element>
         <name>cyborg</name>
         <parent>human</parent>
         <parent>robot</parent>
-        <color></color>
+        <color>#007fff</color>
     </element>
     <element>
         <name>cyclist</name>
         <parent>human</parent>
         <parent>bicycle</parent>
-        <color></color>
+        <color>#ff007f</color>
     </element>
     <element>
         <name>dam</name>
         <parent>beaver</parent>
         <parent>river</parent>
-        <color></color>
+        <color>#0f6</color>
     </element>
     <element>
         <name>darth vader</name>
         <parent>jedi</parent>
         <parent>fire</parent>
-        <color></color>
+        <color>#0019ff</color>
     </element>
     <element>
         <name>day</name>
         <parent>sun</parent>
         <parent>time</parent>
-        <color></color>
+        <color>#00ffd4</color>
     </element>
     <element>
         <name>desert</name>
         <parent>sand</parent>
         <parent>sand</parent>
-        <color></color>
+        <color>#ff7900</color>
     </element>
     <element>
         <name>dew</name>
         <parent>grass</parent>
         <parent>fog</parent>
-        <color></color>
+        <color>#54ff00</color>
     </element>
     <element>
         <name>diamond</name>
         <parent>coal</parent>
         <parent>pressure</parent>
-        <color></color>
+        <color>#05f</color>
     </element>
     <element>
         <name>dinosaur</name>
         <parent>time</parent>
         <parent>lizard</parent>
-        <color></color>
+        <color>#ff0</color>
     </element>
     <element>
         <name>doctor</name>
         <parent>hospital</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#ff7f00</color>
     </element>
     <element>
         <name>dog</name>
         <parent>wild animal</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#ff5e00</color>
     </element>
     <element>
         <name>doge</name>
@@ -857,193 +857,193 @@
         <parent>internet</parent>
         <parent>dog</parent>
         <parent>computer</parent>
-        <color></color>
+        <color>#ffc100</color>
     </element>
     <element>
         <name>doghouse</name>
         <parent>dog</parent>
         <parent>house</parent>
-        <color></color>
+        <color>#f60</color>
     </element>
     <element>
         <name>don quixote</name>
         <parent>windmill</parent>
         <parent>knight</parent>
-        <color></color>
+        <color>#ffb400</color>
     </element>
     <element>
         <name>donut</name>
         <parent>dough</parent>
         <parent>oil</parent>
-        <color></color>
+        <color>#ff7a00</color>
     </element>
     <element>
         <name>double rainbow!</name>
         <parent>rainbow</parent>
         <parent>rainbow</parent>
-        <color></color>
+        <color>#0af</color>
     </element>
     <element>
         <name>dough</name>
         <parent>water</parent>
         <parent>flour</parent>
-        <color></color>
+        <color>#ff6800</color>
     </element>
     <element>
         <name>dragon</name>
         <parent>fire</parent>
         <parent>lizard</parent>
-        <color></color>
+        <color>#8bff00</color>
     </element>
     <element>
         <name>drone</name>
         <parent>airplane</parent>
         <parent>robot</parent>
-        <color></color>
+        <color>#0058ff</color>
     </element>
     <element>
         <name>drum</name>
         <parent>leather</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#fa0</color>
     </element>
     <element>
         <name>drunk</name>
         <parent>human</parent>
         <parent>alcohol</parent>
-        <color></color>
+        <color>#ff7100</color>
     </element>
     <element>
         <name>dry ice</name>
         <parent>carbon dioxide</parent>
         <parent>cold</parent>
-        <color></color>
+        <color>#dbff00</color>
     </element>
     <element>
         <name>duck</name>
         <parent>water</parent>
         <parent>bird</parent>
-        <color></color>
+        <color>#fb0</color>
     </element>
     <element>
         <name>dune</name>
         <parent>beach</parent>
         <parent>wind</parent>
-        <color></color>
+        <color>#ff4200</color>
     </element>
     <element>
         <name>dust</name>
         <parent>earth</parent>
         <parent>air</parent>
-        <color></color>
+        <color>#ff6b00</color>
     </element>
     <element>
         <name>dynamite</name>
         <parent>wire</parent>
         <parent>gunpowder</parent>
-        <color></color>
+        <color>#ff3800</color>
     </element>
     <element>
         <name>eagle</name>
         <parent>mountain</parent>
         <parent>bird</parent>
-        <color></color>
+        <color>#004bff</color>
     </element>
     <element>
         <name>earth</name>
         <parent>basic element</parent>
         <parent>basic element</parent>
-        <color></color>
+        <color>#0023ff</color>
     </element>
     <element>
         <name>earthquake</name>
         <parent>energy</parent>
         <parent>earth</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>eclipse</name>
         <parent>sun</parent>
         <parent>moon</parent>
-        <color></color>
+        <color>#50f</color>
     </element>
     <element>
         <name>egg</name>
         <parent>stone</parent>
         <parent>life</parent>
-        <color></color>
+        <color>#ff7000</color>
     </element>
     <element>
         <name>egg timer</name>
         <parent>egg</parent>
         <parent>clock</parent>
-        <color></color>
+        <color>#ff0700</color>
     </element>
     <element>
         <name>electric car</name>
         <parent>electricity</parent>
         <parent>car</parent>
-        <color></color>
+        <color>#03f</color>
     </element>
     <element>
         <name>electric eel</name>
         <parent>electricity</parent>
         <parent>fish</parent>
-        <color></color>
+        <color>#59ff00</color>
     </element>
     <element>
         <name>electrician</name>
         <parent>electricity</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#bf00ff</color>
     </element>
     <element>
         <name>electricity</name>
         <parent>energy</parent>
         <parent>metal</parent>
-        <color></color>
+        <color>#0070ff</color>
     </element>
     <element>
         <name>email</name>
         <parent>letter</parent>
         <parent>computer</parent>
-        <color></color>
+        <color>#009bff</color>
     </element>
     <element>
         <name>energy</name>
         <parent>fire</parent>
         <parent>air</parent>
-        <color></color>
+        <color>#0079ff</color>
     </element>
     <element>
         <name>engineer</name>
         <parent>human</parent>
         <parent>tool</parent>
-        <color></color>
+        <color>#ff2a00</color>
     </element>
     <element>
         <name>eruption</name>
         <parent>energy</parent>
         <parent>volcano</parent>
-        <color></color>
+        <color>#ff3000</color>
     </element>
     <element>
         <name>explosion</name>
         <parent>fire</parent>
         <parent>gunpowder</parent>
-        <color></color>
+        <color>#ff5e00</color>
     </element>
     <element>
         <name>excalibur</name>
         <parent>stone</parent>
         <parent>sword</parent>
-        <color></color>
+        <color>#bfff00</color>
     </element>
     <element>
         <name>fabric</name>
         <parent>thread</parent>
         <parent>tool</parent>
-        <color></color>
+        <color>#0fa</color>
     </element>
     <element>
         <name>fairy tale</name>
@@ -1055,56 +1055,56 @@
         <parent>knight</parent>
         <parent>story</parent>
         <parent>dragon</parent>
-        <color></color>
+        <color>#f30</color>
     </element>
     <element>
         <name>family</name>
         <parent>human</parent>
         <parent>house</parent>
-        <color></color>
+        <color>#ffa500</color>
     </element>
     <element>
         <name>family tree</name>
         <parent>family</parent>
         <parent>tree</parent>
-        <color></color>
+        <color>#cf0</color>
     </element>
     <element>
         <name>farm</name>
         <parent>farmer</parent>
         <parent>house</parent>
         <parent>barn</parent>
-        <color></color>
+        <color>#ffd900</color>
     </element>
     <element>
         <name>farmer</name>
         <parent>human</parent>
         <parent>field</parent>
-        <color></color>
+        <color>#0ff</color>
     </element>
     <element>
         <name>faun</name>
         <parent>human</parent>
         <parent>goat</parent>
-        <color></color>
+        <color>#ff9b00</color>
     </element>
     <element>
         <name>fence</name>
         <parent>wood</parent>
         <parent>wall</parent>
-        <color></color>
+        <color>#ff9b00</color>
     </element>
     <element>
         <name>field</name>
         <parent>earth</parent>
         <parent>tool</parent>
-        <color></color>
+        <color>#00ff0f</color>
     </element>
     <element>
         <name>fire</name>
         <parent>basic element</parent>
         <parent>basic element</parent>
-        <color></color>
+        <color>#ff6f00</color>
     </element>
     <element>
         <name>fire extinguisher</name>
@@ -1114,212 +1114,212 @@
         <parent>pressure</parent>
         <parent>fire</parent>
         <parent>metal</parent>
-        <color></color>
+        <color>#ff1400</color>
     </element>
     <element>
         <name>fireman</name>
         <parent>fire</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#f90</color>
     </element>
     <element>
         <name>fireplace</name>
         <parent>campfire</parent>
         <parent>house</parent>
-        <color></color>
+        <color>#ff5e00</color>
     </element>
     <element>
         <name>firetruck</name>
         <parent>fireman</parent>
         <parent>car</parent>
-        <color></color>
+        <color>#ff2a00</color>
     </element>
     <element>
         <name>fireworks</name>
         <parent>sky</parent>
         <parent>explosion</parent>
-        <color></color>
+        <color>#ff4300</color>
     </element>
     <element>
         <name>fish</name>
         <parent>time</parent>
         <parent>hard roe</parent>
-        <color></color>
+        <color>#ff7f00</color>
     </element>
     <element>
         <name>fishing rod</name>
         <parent>fish</parent>
         <parent>tool</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>flamethrower</name>
         <parent>fire</parent>
         <parent>gun</parent>
-        <color></color>
+        <color>#ff7e00</color>
     </element>
     <element>
         <name>flashlight</name>
         <parent>tool</parent>
         <parent>light</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>flood</name>
         <parent>rain</parent>
         <parent>rain</parent>
-        <color></color>
+        <color>#ff0</color>
     </element>
     <element>
         <name>flour</name>
         <parent>stone</parent>
         <parent>wheat</parent>
-        <color></color>
+        <color>#ff8900</color>
     </element>
     <element>
         <name>flower</name>
         <parent>plant</parent>
         <parent>garden</parent>
-        <color></color>
+        <color>#ffb300</color>
     </element>
     <element>
         <name>flute</name>
         <parent>wind</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#ff0</color>
     </element>
     <element>
         <name>flying fish</name>
         <parent>bird</parent>
         <parent>fish</parent>
-        <color></color>
+        <color>#05f</color>
     </element>
     <element>
         <name>flying squirrel</name>
         <parent>bird</parent>
         <parent>squirrel</parent>
-        <color></color>
+        <color>#f90</color>
     </element>
     <element>
         <name>fog</name>
         <parent>cloud</parent>
         <parent>earth</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>forest</name>
         <parent>tree</parent>
         <parent>tree</parent>
-        <color></color>
+        <color>#92ff00</color>
     </element>
     <element>
         <name>fortune cookie</name>
         <parent>cookie</parent>
         <parent>paper</parent>
-        <color></color>
+        <color>#ff7f00</color>
     </element>
     <element>
         <name>fossil</name>
         <parent>dinosaur</parent>
         <parent>earth</parent>
-        <color></color>
+        <color>#ff8200</color>
     </element>
     <element>
         <name>fountain</name>
         <parent>statue</parent>
         <parent>water</parent>
-        <color></color>
+        <color>#bfff00</color>
     </element>
     <element>
         <name>fox</name>
         <parent>chicken</parent>
         <parent>wild animal</parent>
-        <color></color>
+        <color>#d0ff00</color>
     </element>
     <element>
         <name>frankenstein</name>
         <parent>electricity</parent>
         <parent>corpse</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>french fries</name>
         <parent>oil</parent>
         <parent>vegetable</parent>
-        <color></color>
+        <color>#ff9500</color>
     </element>
     <element>
         <name>fridge</name>
         <parent>metal</parent>
         <parent>cold</parent>
-        <color></color>
+        <color>#ff0</color>
     </element>
     <element>
         <name>frog</name>
         <parent>wild animal</parent>
         <parent>pond</parent>
-        <color></color>
+        <color>#fff600</color>
     </element>
     <element>
         <name>frozen yogurt</name>
         <parent>cold</parent>
         <parent>yogurt</parent>
-        <color></color>
+        <color>#ff9f00</color>
     </element>
     <element>
         <name>fruit</name>
         <parent>tree</parent>
         <parent>farmer</parent>
-        <color></color>
+        <color>#ffab00</color>
     </element>
     <element>
         <name>fruit tree</name>
         <parent>fruit</parent>
         <parent>tree</parent>
-        <color></color>
+        <color>#b8ff00</color>
     </element>
     <element>
         <name>fun dip</name>
         <parent>sugar</parent>
         <parent>sand</parent>
-        <color></color>
+        <color>#0f3</color>
     </element>
     <element>
         <name>galaxy</name>
         <parent>star</parent>
         <parent>star</parent>
-        <color></color>
+        <color>#ff007f</color>
     </element>
     <element>
         <name>garden</name>
         <parent>plant</parent>
         <parent>grass</parent>
-        <color></color>
+        <color>#9fff00</color>
     </element>
     <element>
         <name>gardener</name>
         <parent>garden</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#af0</color>
     </element>
     <element>
         <name>geyser</name>
         <parent>earth</parent>
         <parent>steam</parent>
-        <color></color>
+        <color>#0046ff</color>
     </element>
     <element>
         <name>ghost</name>
         <parent>graveyard</parent>
         <parent>night</parent>
-        <color></color>
+        <color>#0fa</color>
     </element>
     <element>
         <name>gift</name>
         <parent>santa</parent>
         <parent>chimney</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>gingerbread house</name>
@@ -1327,199 +1327,199 @@
         <parent>dough</parent>
         <parent>house</parent>
         <parent>gingerbread man</parent>
-        <color></color>
+        <color>#ff6700</color>
     </element>
     <element>
         <name>gingerbread man</name>
         <parent>dough</parent>
         <parent>life</parent>
-        <color></color>
+        <color>#ff8300</color>
     </element>
     <element>
         <name>glacier</name>
         <parent>ice</parent>
         <parent>mountain</parent>
-        <color></color>
+        <color>#0089ff</color>
     </element>
     <element>
         <name>glass</name>
         <parent>electricity</parent>
         <parent>sand</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>glasses</name>
         <parent>glass</parent>
         <parent>metal</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>glasshouse</name>
         <parent>plant</parent>
         <parent>glass</parent>
-        <color></color>
+        <color>#f3ff00</color>
     </element>
     <element>
         <name>goat</name>
         <parent>livestock</parent>
         <parent>mountain</parent>
-        <color></color>
+        <color>#c8ff00</color>
     </element>
     <element>
         <name>godzilla</name>
         <parent>dinosaur</parent>
         <parent>city</parent>
-        <color></color>
+        <color>#ff5300</color>
     </element>
     <element>
         <name>gold</name>
         <parent>sun</parent>
         <parent>metal</parent>
-        <color></color>
+        <color>#ffa500</color>
     </element>
     <element>
         <name>goldfish</name>
         <parent>fish</parent>
         <parent>cheese</parent>
-        <color></color>
+        <color>#ff9200</color>
     </element>
     <element>
         <name>gnome</name>
         <parent>garden</parent>
         <parent>statue</parent>
-        <color></color>
+        <color>#ff0040</color>
     </element>
     <element>
         <name>golem</name>
         <parent>life</parent>
         <parent>clay</parent>
-        <color></color>
+        <color>#ff8e00</color>
     </element>
     <element>
         <name>granite</name>
         <parent>lava</parent>
         <parent>pressure</parent>
-        <color>#111166</color>
+        <color>#ff6b00</color>
     </element>
     <element>
         <name>grass</name>
         <parent>earth</parent>
         <parent>plant</parent>
-        <color></color>
+        <color>#6f0</color>
     </element>
     <element>
         <name>grave</name>
         <parent>earth</parent>
         <parent>corpse</parent>
-        <color></color>
+        <color>#acff00</color>
     </element>
     <element>
         <name>gravestone</name>
         <parent>stone</parent>
         <parent>grave</parent>
-        <color></color>
+        <color>#a6ff00</color>
     </element>
     <element>
         <name>graveyard</name>
         <parent>grave</parent>
         <parent>grave</parent>
-        <color></color>
+        <color>#a6ff00</color>
     </element>
     <element>
         <name>green house</name>
         <parent>plant</parent>
         <parent>glass</parent>
-        <color></color>
+        <color>#6eff00</color>
     </element>
     <element>
         <name>grenade</name>
         <parent>explosion</parent>
         <parent>metal</parent>
-        <color></color>
+        <color>#ffb200</color>
     </element>
     <element>
         <name>grilled cheese</name>
         <parent>cheese</parent>
         <parent>toast</parent>
-        <color></color>
+        <color>#ff7b00</color>
     </element>
     <element>
         <name>grim reaper</name>
         <parent>scythe</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#0f0</color>
     </element>
     <element>
         <name>guiness float</name>
         <parent>beer</parent>
         <parent>ice cream</parent>
-        <color></color>
+        <color>#f0f</color>
     </element>
     <element>
         <name>gun</name>
         <parent>metal</parent>
         <parent>bullet</parent>
-        <color></color>
+        <color>#00f</color>
     </element>
     <element>
         <name>gunpowder</name>
         <parent>fire</parent>
         <parent>dust</parent>
-        <color></color>
+        <color>#ffc900</color>
     </element>
     <element>
         <name>hail</name>
         <parent>cloud</parent>
         <parent>ice</parent>
-        <color></color>
+        <color>#00e3ff</color>
     </element>
     <element>
         <name>ham</name>
         <parent>meat</parent>
         <parent>smoke</parent>
-        <color></color>
+        <color>#ff2f00</color>
     </element>
     <element>
         <name>hamburger</name>
         <parent>meat</parent>
         <parent>bread</parent>
-        <color></color>
+        <color>#ff9b00</color>
     </element>
     <element>
         <name>hammer</name>
         <parent>metal</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#ff4600</color>
     </element>
     <element>
         <name>hamster</name>
         <parent>wheel </parent>
         <parent>mouse</parent>
-        <color></color>
+        <color>#ff5e00</color>
     </element>
     <element>
         <name>hard roe</name>
         <parent>water</parent>
         <parent>egg</parent>
-        <color></color>
+        <color>#ff5100</color>
     </element>
     <element>
         <name>harp</name>
         <parent>angel</parent>
         <parent>music</parent>
-        <color></color>
+        <color>#ff6100</color>
     </element>
     <element>
         <name>hay</name>
         <parent>scythe</parent>
         <parent>grass</parent>
-        <color></color>
+        <color>#ffb000</color>
     </element>
     <element>
         <name>hay bale</name>
         <parent>hay</parent>
         <parent>hay</parent>
-        <color></color>
+        <color>#ffe600</color>
     </element>
     <element>
         <name>hedge</name>
@@ -1527,85 +1527,85 @@
         <parent>fence</parent>
         <parent>plant</parent>
         <parent>fence</parent>
-        <color></color>
+        <color>#8fff00</color>
     </element>
     <element>
         <name>helicopter</name>
         <parent>airplane</parent>
         <parent>blade</parent>
-        <color></color>
+        <color>#07f</color>
     </element>
     <element>
         <name>hero</name>
         <parent>dragon</parent>
         <parent>knight</parent>
-        <color></color>
+        <color>#ff3700</color>
     </element>
     <element>
         <name>hippo</name>
         <parent>horse</parent>
         <parent>river</parent>
-        <color></color>
+        <color>#ff4900</color>
     </element>
     <element>
         <name>honey</name>
         <parent>bee</parent>
         <parent>flower</parent>
-        <color></color>
+        <color>#ff9b00</color>
     </element>
     <element>
         <name>horizon</name>
         <parent>sky</parent>
         <parent>ocean</parent>
-        <color></color>
+        <color>#00e3ff</color>
     </element>
     <element>
         <name>horse</name>
         <parent>hay</parent>
         <parent>livestock</parent>
-        <color></color>
+        <color>#00afff</color>
     </element>
     <element>
         <name>horseshoe</name>
         <parent>horse</parent>
         <parent>metal</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>hospital</name>
         <parent>sickness</parent>
         <parent>house</parent>
-        <color></color>
+        <color>#004cff</color>
     </element>
     <element>
         <name>hourglass</name>
         <parent>sand</parent>
         <parent>glass</parent>
-        <color></color>
+        <color>#ff0</color>
     </element>
     <element>
         <name>house</name>
         <parent>brick</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#0076ff</color>
     </element>
     <element>
         <name>human</name>
         <parent>earth</parent>
         <parent>life</parent>
-        <color></color>
+        <color>#ff4600</color>
     </element>
     <element>
         <name>hummingbird</name>
         <parent>flower</parent>
         <parent>bird</parent>
-        <color></color>
+        <color>#fff600</color>
     </element>
     <element>
         <name>hurricane</name>
         <parent>energy</parent>
         <parent>wind</parent>
-        <color></color>
+        <color>#006cff</color>
     </element>
     <element>
         <name>husky</name>
@@ -1613,85 +1613,85 @@
         <parent>dog</parent>
         <parent>ice</parent>
         <parent>dog</parent>
-        <color></color>
+        <color>#ff7f00</color>
     </element>
     <element>
         <name>ice</name>
         <parent>water</parent>
         <parent>cold</parent>
-        <color></color>
+        <color>#00bcff</color>
     </element>
     <element>
         <name>ice cream</name>
         <parent>cold</parent>
         <parent>milk</parent>
-        <color></color>
+        <color>#ffa400</color>
     </element>
     <element>
         <name>ice cream truck</name>
         <parent>ice cream</parent>
         <parent>car</parent>
-        <color></color>
+        <color>#b1ff00</color>
     </element>
     <element>
         <name>iceberg</name>
         <parent>sea</parent>
         <parent>ice</parent>
-        <color></color>
+        <color>#0024ff</color>
     </element>
     <element>
         <name>iced tea</name>
         <parent>ice</parent>
         <parent>tea</parent>
-        <color></color>
+        <color>#ff4b00</color>
     </element>
     <element>
         <name>idea</name>
         <parent>light bulb</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#ffb600</color>
     </element>
     <element>
         <name>igloo</name>
         <parent>ice</parent>
         <parent>house</parent>
-        <color></color>
+        <color>#0063ff</color>
     </element>
     <element>
         <name>internet</name>
         <parent>computer</parent>
         <parent>computer</parent>
-        <color></color>
+        <color>#00a9ff</color>
     </element>
     <element>
         <name>isle</name>
         <parent>volcano</parent>
         <parent>ocean</parent>
-        <color></color>
+        <color>#00a1ff</color>
     </element>
     <element>
         <name>ivy</name>
         <parent>plant</parent>
         <parent>wall</parent>
-        <color></color>
+        <color>#3cff00</color>
     </element>
     <element>
         <name>jack-o-lantern</name>
         <parent>fire</parent>
         <parent>pumpkin</parent>
-        <color></color>
+        <color>#ff6200</color>
     </element>
     <element>
         <name>jam</name>
         <parent>fruit</parent>
         <parent>sugar</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>jedi</name>
         <parent>lightsaber</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#ff6800</color>
     </element>
     <element>
         <name>jerky</name>
@@ -1699,44 +1699,44 @@
         <parent>sun</parent>
         <parent>meat</parent>
         <parent>salt</parent>
-        <color></color>
+        <color>#ff0008</color>
     </element>
     <element>
         <name>juice</name>
         <parent>pressure</parent>
         <parent>fruit</parent>
-        <color></color>
+        <color>#ffa200</color>
     </element>
     <element>
         <name>juicy fruit</name>
         <parent>juice</parent>
         <parent>fruit</parent>
-        <color></color>
+        <color>#ffe100</color>
     </element>
     <element>
         <name>keyboard cat</name>
         <parent>cat</parent>
         <parent>music</parent>
-        <color></color>
+        <color>#008fff</color>
     </element>
     <element>
         <name>king</name>
         <parent>human</parent>
         <parent>castle</parent>
         <parent>excalibur</parent>
-        <color></color>
+        <color>#f60</color>
     </element>
     <element>
         <name>kite</name>
         <parent>paper</parent>
         <parent>wind</parent>
-        <color></color>
+        <color>#007fff</color>
     </element>
     <element>
         <name>knight</name>
         <parent>armor</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#ff2400</color>
     </element>
     <element>
         <name>lake</name>
@@ -1744,199 +1744,199 @@
         <parent>pond</parent>
         <parent>river</parent>
         <parent>dam</parent>
-        <color></color>
+        <color>#006aff</color>
     </element>
     <element>
         <name>lamp</name>
         <parent>light bulb</parent>
         <parent>metal</parent>
-        <color></color>
+        <color>#f50</color>
     </element>
     <element>
         <name>lawn mower</name>
         <parent>tool</parent>
         <parent>grass</parent>
-        <color></color>
+        <color>#ff4000</color>
     </element>
     <element>
         <name>lava</name>
         <parent>fire</parent>
         <parent>earth</parent>
-        <color>#FF6666</color>
+        <color>#ff2e00</color>
     </element>
     <element>
         <name>lava lamp</name>
         <parent>lava</parent>
         <parent>lamp</parent>
-        <color>#FF66CC</color>
+        <color>#00f</color>
     </element>
     <element>
         <name>leaf</name>
         <parent>tree</parent>
         <parent>wind</parent>
-        <color></color>
+        <color>#9aff00</color>
     </element>
     <element>
         <name>leather</name>
         <parent>blade</parent>
         <parent>cow</parent>
-        <color></color>
+        <color>#ff6d00</color>
     </element>
     <element>
         <name>lemonade</name>
         <parent>water</parent>
         <parent>fruit</parent>
-        <color></color>
+        <color>#a3ff00</color>
     </element>
     <element>
         <name>letter</name>
         <parent>paper</parent>
         <parent>pencil</parent>
-        <color></color>
+        <color>#ff9800</color>
     </element>
     <element>
         <name>life</name>
         <parent>energy</parent>
         <parent>swamp</parent>
-        <color></color>
+        <color>#ff6e00</color>
     </element>
     <element>
         <name>light</name>
         <parent>electricity</parent>
         <parent>light bulb</parent>
-        <color></color>
+        <color>#0089ff</color>
     </element>
     <element>
         <name>light bulb</name>
         <parent>electricity</parent>
         <parent>glass</parent>
-        <color></color>
+        <color>#00b3ff</color>
     </element>
     <element>
         <name>lighthouse</name>
         <parent>light</parent>
         <parent>ocean</parent>
-        <color></color>
+        <color>#0f9</color>
     </element>
     <element>
         <name>lightsaber</name>
         <parent>energy</parent>
         <parent>sword</parent>
-        <color></color>
+        <color>#00d0ff</color>
     </element>
     <element>
         <name>lion</name>
         <parent>cat</parent>
         <parent>wild animal</parent>
-        <color></color>
+        <color>#ff9c00</color>
     </element>
     <element>
         <name>livestock</name>
         <parent>life</parent>
         <parent>farmer</parent>
-        <color></color>
+        <color>#faff00</color>
     </element>
     <element>
         <name>lizard</name>
         <parent>swamp</parent>
         <parent>egg</parent>
-        <color></color>
+        <color>#ff0</color>
     </element>
     <element>
         <name>log cabin</name>
         <parent>wood</parent>
         <parent>house</parent>
-        <color></color>
+        <color>#ffe500</color>
     </element>
     <element>
         <name>love</name>
         <parent>human</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#ff5000</color>
     </element>
     <element>
         <name>lumberjack</name>
         <parent>human</parent>
         <parent>axe</parent>
-        <color></color>
+        <color>#ff6400</color>
     </element>
     <element>
         <name>mac and cheese</name>
         <parent>cheese</parent>
         <parent>pasta</parent>
-        <color></color>
+        <color>#f80</color>
     </element>
     <element>
         <name>mailman</name>
         <parent>letter</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#1b00ff</color>
     </element>
     <element>
         <name>manatee</name>
         <parent>cow</parent>
         <parent>sea</parent>
-        <color></color>
+        <color>#00ffc2</color>
     </element>
     <element>
         <name>map</name>
         <parent>paper</parent>
         <parent>earth</parent>
-        <color></color>
+        <color>#00ffc8</color>
     </element>
     <element>
         <name>mars</name>
         <parent>rust</parent>
         <parent>planet</parent>
-        <color></color>
+        <color>#ff6000</color>
     </element>
     <element>
         <name>marshmallow</name>
         <parent>sugar</parent>
         <parent>campfire</parent>
-        <color></color>
+        <color>#b6ff00</color>
     </element>
     <element>
         <name>mayonnaise</name>
         <parent>egg</parent>
         <parent>oil</parent>
-        <color></color>
+        <color>#ffbc00</color>
     </element>
     <element>
         <name>meat</name>
         <parent>tool</parent>
         <parent>cow</parent>
-        <color></color>
+        <color>#ff2000</color>
     </element>
     <element>
         <name>medusa</name>
         <parent>human</parent>
         <parent>snake</parent>
-        <color></color>
+        <color>#ffca00</color>
     </element>
     <element>
         <name>mermaid</name>
         <parent>human</parent>
         <parent>fish</parent>
-        <color></color>
+        <color>#0082ff</color>
     </element>
     <element>
         <name>metal</name>
         <parent>fire</parent>
         <parent>stone</parent>
-        <color></color>
+        <color>#ff7f00</color>
     </element>
     <element>
         <name>meteor</name>
         <parent>atmosphere</parent>
         <parent>meteoroid</parent>
-        <color></color>
+        <color>#0f5</color>
     </element>
     <element>
         <name>meteoroid</name>
         <parent>stone</parent>
         <parent>space</parent>
-        <color></color>
+        <color>#f0f</color>
     </element>
     <element>
         <name>microscope</name>
@@ -1944,79 +1944,79 @@
         <parent>glasses</parent>
         <parent>bacteria</parent>
         <parent>glass</parent>
-        <color></color>
+        <color>#00f</color>
     </element>
     <element>
         <name>milk</name>
         <parent>farmer</parent>
         <parent>cow</parent>
-        <color></color>
+        <color>#0068ff</color>
     </element>
     <element>
         <name>milk shake</name>
         <parent>milk</parent>
         <parent>ice cream</parent>
-        <color></color>
+        <color>#ff7000</color>
     </element>
     <element>
         <name>milky way</name>
         <parent>milk</parent>
         <parent>space</parent>
-        <color></color>
+        <color>#00dfff</color>
     </element>
     <element>
         <name>minotaur</name>
         <parent>cow</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#d800ff</color>
     </element>
     <element>
         <name>mirror</name>
         <parent>glass</parent>
         <parent>metal</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>mold</name>
         <parent>bread</parent>
         <parent>time</parent>
-        <color></color>
+        <color>#f6ff00</color>
     </element>
     <element>
         <name>money</name>
         <parent>paper</parent>
         <parent>gold</parent>
-        <color></color>
+        <color>#ffc800</color>
     </element>
     <element>
         <name>monkey</name>
         <parent>wild animal</parent>
         <parent>tree</parent>
-        <color></color>
+        <color>#e1ff00</color>
     </element>
     <element>
         <name>moon</name>
         <parent>sky</parent>
         <parent>cheese</parent>
-        <color></color>
+        <color>#ff7f00</color>
     </element>
     <element>
         <name>moss</name>
         <parent>plant</parent>
         <parent>stone</parent>
-        <color></color>
+        <color>#af0</color>
     </element>
     <element>
         <name>motorcycle</name>
         <parent>bicycle</parent>
         <parent>energy</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>mountain</name>
         <parent>earthquake</parent>
         <parent>earth</parent>
-        <color></color>
+        <color>#0083ff</color>
     </element>
     <element>
         <name>mountain goat</name>
@@ -2024,181 +2024,181 @@
         <parent>goat</parent>
         <parent>mountain range</parent>
         <parent>goat</parent>
-        <color></color>
+        <color>#0094ff</color>
     </element>
     <element>
         <name>mountain range</name>
         <parent>mountain</parent>
         <parent>mountain</parent>
-        <color></color>
+        <color>#00e9ff</color>
     </element>
     <element>
         <name>mounds</name>
         <parent>chocolate</parent>
         <parent>coconut</parent>
-        <color></color>
+        <color>#59ff00</color>
     </element>
     <element>
         <name>mouse</name>
         <parent>wild animal</parent>
         <parent>cheese</parent>
-        <color></color>
+        <color>#ff7f00</color>
     </element>
     <element>
         <name>mousetrap</name>
         <parent>cheese</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#ff7f00</color>
     </element>
     <element>
         <name>mud</name>
         <parent>water</parent>
         <parent>earth</parent>
-        <color></color>
+        <color>#ff8500</color>
     </element>
     <element>
         <name>mummy</name>
         <parent>pyramid</parent>
         <parent>corpse</parent>
-        <color></color>
+        <color>#ffe000</color>
     </element>
     <element>
         <name>music</name>
         <parent>sound</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>narwhal</name>
         <parent>ocean</parent>
         <parent>unicorn</parent>
-        <color></color>
+        <color>#0060ff</color>
     </element>
     <element>
         <name>needle</name>
         <parent>hay</parent>
         <parent>metal</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>nerd</name>
         <parent>glasses</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#ff5100</color>
     </element>
     <element>
         <name>nerds</name>
         <parent>sugar</parent>
         <parent>nerd</parent>
-        <color></color>
+        <color>#f20</color>
     </element>
     <element>
         <name>nessie</name>
         <parent>story</parent>
         <parent>lake</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>nest</name>
         <parent>bird</parent>
         <parent>tree</parent>
-        <color></color>
+        <color>#f60</color>
     </element>
     <element>
         <name>newspaper</name>
         <parent>paper</parent>
         <parent>paper</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>night</name>
         <parent>time</parent>
         <parent>moon</parent>
-        <color></color>
+        <color>#ff00d1</color>
     </element>
     <element>
         <name>ninja</name>
         <parent>human</parent>
         <parent>shuriken</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>ninja turtle</name>
         <parent>turtle</parent>
         <parent>ninja</parent>
-        <color></color>
+        <color>#c3ff00</color>
     </element>
     <element>
         <name>oasis</name>
         <parent>water</parent>
         <parent>desert</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>obsidian</name>
         <parent>water</parent>
         <parent>lava</parent>
-        <color>#888888</color>
+        <color>#f00</color>
     </element>
     <element>
         <name>ocean</name>
         <parent>water</parent>
         <parent>sea</parent>
-        <color></color>
+        <color>#0089ff</color>
     </element>
     <element>
         <name>oil</name>
         <parent>sunflower</parent>
         <parent>pressure</parent>
-        <color></color>
+        <color>#ff8400</color>
     </element>
     <element>
         <name>omelette</name>
         <parent>fire</parent>
         <parent>egg</parent>
-        <color></color>
+        <color>#ff9500</color>
     </element>
     <element>
         <name>optical fiber</name>
         <parent>wire</parent>
         <parent>light</parent>
-        <color></color>
+        <color>#0065ff</color>
     </element>
     <element>
         <name>orchard</name>
         <parent>fruit tree</parent>
         <parent>fruit tree</parent>
-        <color></color>
+        <color>#e6ff00</color>
     </element>
     <element>
         <name>origami</name>
         <parent>bird</parent>
         <parent>paper</parent>
-        <color></color>
+        <color>#00bfff</color>
     </element>
     <element>
         <name>ostrich</name>
         <parent>bird</parent>
         <parent>earth</parent>
-        <color></color>
+        <color>#ffa200</color>
     </element>
     <element>
         <name>owl</name>
         <parent>night</parent>
         <parent>bird</parent>
-        <color></color>
+        <color>#ffaf00</color>
     </element>
     <element>
         <name>oxygen</name>
         <parent>sun</parent>
         <parent>plant</parent>
-        <color></color>
+        <color>#ffcd00</color>
     </element>
     <element>
         <name>ozone</name>
         <parent>oxygen</parent>
         <parent>oxygen</parent>
-        <color></color>
+        <color>#08f</color>
     </element>
     <element>
         <name>paint</name>
@@ -2206,243 +2206,243 @@
         <parent>rainbow</parent>
         <parent>water</parent>
         <parent>pencil</parent>
-        <color></color>
+        <color>#ffd500</color>
     </element>
     <element>
         <name>palm</name>
         <parent>isle</parent>
         <parent>tree</parent>
-        <color></color>
+        <color>#c8ff00</color>
     </element>
     <element>
         <name>paper</name>
         <parent>wood</parent>
         <parent>pressure</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>paper airplane</name>
         <parent>paper</parent>
         <parent>airplane</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>parachute</name>
         <parent>pilot</parent>
         <parent>fabric</parent>
         <parent>umbrella</parent>
-        <color></color>
+        <color>#008fff</color>
     </element>
     <element>
         <name>parrot</name>
         <parent>pirate</parent>
         <parent>bird</parent>
-        <color></color>
+        <color>#c8ff00</color>
     </element>
     <element>
         <name>pasta</name>
         <parent>egg</parent>
         <parent>flour</parent>
-        <color></color>
+        <color>#ff7c00</color>
     </element>
     <element>
         <name>peacock</name>
         <parent>bird</parent>
         <parent>rainbow</parent>
-        <color></color>
+        <color>#8aff00</color>
     </element>
     <element>
         <name>peeps</name>
         <parent>sugar</parent>
         <parent>chicken</parent>
-        <color></color>
+        <color>#ffaf00</color>
     </element>
     <element>
         <name>pegasus</name>
         <parent>horse</parent>
         <parent>bird</parent>
-        <color></color>
+        <color>#00ff24</color>
     </element>
     <element>
         <name>pencil sharpener</name>
         <parent>blade</parent>
         <parent>pencil</parent>
-        <color></color>
+        <color>#ff000d</color>
     </element>
     <element>
         <name>petroleum</name>
         <parent>fossil</parent>
         <parent>pressure</parent>
         <parent>time</parent>
-        <color></color>
+        <color>#005cff</color>
     </element>
     <element>
         <name>pencil</name>
         <parent>charcoal</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#ff6d00</color>
     </element>
     <element>
         <name>penguin</name>
         <parent>ice</parent>
         <parent>bird</parent>
-        <color></color>
+        <color>#0070ff</color>
     </element>
     <element>
         <name>penicillin</name>
         <parent>doctor</parent>
         <parent>mold</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>phoenix</name>
         <parent>fire</parent>
         <parent>bird</parent>
-        <color></color>
+        <color>#ff2c00</color>
     </element>
     <element>
         <name>picnic</name>
         <parent>sandwich</parent>
         <parent>grass</parent>
-        <color></color>
+        <color>#e2ff00</color>
     </element>
     <element>
         <name>pie</name>
         <parent>dough</parent>
         <parent>fruit</parent>
-        <color></color>
+        <color>#ff8d00</color>
     </element>
     <element>
         <name>pig</name>
         <parent>mud</parent>
         <parent>livestock</parent>
-        <color></color>
+        <color>#ff4600</color>
     </element>
     <element>
         <name>pigeon</name>
         <parent>letter</parent>
         <parent>bird</parent>
-        <color></color>
+        <color>#f60</color>
     </element>
     <element>
         <name>pilot</name>
         <parent>airplane</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#f0f</color>
     </element>
     <element>
         <name>pitchfork</name>
         <parent>tool</parent>
         <parent>hay</parent>
-        <color></color>
+        <color>#1500ff</color>
     </element>
     <element>
         <name>pinocchio</name>
         <parent>life</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#f60</color>
     </element>
     <element>
         <name>pipe</name>
         <parent>wood</parent>
         <parent>tobacco</parent>
-        <color></color>
+        <color>#ff7000</color>
     </element>
     <element>
         <name>piranha</name>
         <parent>pirate</parent>
         <parent>boat</parent>
-        <color></color>
+        <color>#0ff</color>
     </element>
     <element>
         <name>pirate</name>
         <parent>sword</parent>
         <parent>sailor</parent>
-        <color></color>
+        <color>#ff2a00</color>
     </element>
     <element>
         <name>pirate ship</name>
         <parent>pirate</parent>
         <parent>boat</parent>
-        <color></color>
+        <color>#0096ff</color>
     </element>
     <element>
         <name>pizza</name>
         <parent>cheese</parent>
         <parent>dough</parent>
-        <color></color>
+        <color>#ff5c00</color>
     </element>
     <element>
         <name>planet</name>
         <parent>earth</parent>
         <parent>space</parent>
-        <color></color>
+        <color>#ff7100</color>
     </element>
     <element>
         <name>plankton</name>
         <parent>water</parent>
         <parent>life</parent>
-        <color></color>
+        <color>#c800ff</color>
     </element>
     <element>
         <name>plant</name>
         <parent>rain</parent>
         <parent>earth</parent>
-        <color></color>
+        <color>#eaff00</color>
     </element>
     <element>
         <name>platypus</name>
         <parent>duck</parent>
         <parent>beaver</parent>
-        <color></color>
+        <color>#ffdf00</color>
     </element>
     <element>
         <name>pokki</name>
         <parent>computer</parent>
         <parent>squirrel</parent>
-        <color></color>
+        <color>#0085ff</color>
     </element>
     <element>
         <name>pond</name>
         <parent>water</parent>
         <parent>garden</parent>
-        <color></color>
+        <color>#9bff00</color>
     </element>
     <element>
         <name>pop rocks</name>
         <parent>stone</parent>
         <parent>explosion</parent>
-        <color></color>
+        <color>#ff1e00</color>
     </element>
     <element>
         <name>popsicle</name>
         <parent>ice</parent>
         <parent>juice</parent>
-        <color></color>
+        <color>#ff6100</color>
     </element>
     <element>
         <name>pottery</name>
         <parent>fire</parent>
         <parent>clay</parent>
-        <color></color>
+        <color>#ff7600</color>
     </element>
     <element>
         <name>pressure</name>
         <parent>earth</parent>
         <parent>earth</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>printer</name>
         <parent>computer</parent>
         <parent>paper</parent>
-        <color></color>
+        <color>#006aff</color>
     </element>
     <element>
         <name>prism</name>
         <parent>glass</parent>
         <parent>rainbow</parent>
-        <color></color>
+        <color>#ffbf00</color>
     </element>
     <element>
         <name>pterodactyl</name>
@@ -2450,7 +2450,7 @@
         <parent>bird</parent>
         <parent>dinosaur</parent>
         <parent>air</parent>
-        <color></color>
+        <color>#0af</color>
     </element>
     <element>
         <name>puddle</name>
@@ -2460,20 +2460,20 @@
         <parent>flamethrower</parent>
         <parent>sun</parent>
         <parent>ice</parent>
-        <color></color>
+        <color>#ff4000</color>
     </element>
     <element>
         <name>pumpkin</name>
         <parent>vegetable</parent>
         <parent>fire</parent>
         <parent>light</parent>
-        <color></color>
+        <color>#ff7d00</color>
     </element>
     <element>
         <name>pyramid</name>
         <parent>desert</parent>
         <parent>stone</parent>
-        <color></color>
+        <color>#0fa</color>
     </element>
 
 q
@@ -2482,25 +2482,25 @@ q
         <name>quicksand</name>
         <parent>sand</parent>
         <parent>swamp</parent>
-        <color></color>
+        <color>#f60</color>
     </element>
     <element>
         <name>rain</name>
         <parent>water</parent>
         <parent>air</parent>
-        <color></color>
+        <color>#00f2ff</color>
     </element>
     <element>
         <name>rainbow</name>
         <parent>sun</parent>
         <parent>rain</parent>
-        <color></color>
+        <color>#ffe500</color>
     </element>
     <element>
         <name>rat</name>
         <parent>wild animal</parent>
         <parent>sailboat</parent>
-        <color></color>
+        <color>#ff4900</color>
     </element>
     <element>
         <name>recipe</name>
@@ -2508,49 +2508,49 @@ q
         <parent>paper</parent>
         <parent>baker</parent>
         <parent>paper</parent>
-        <color></color>
+        <color>#ffd300</color>
     </element>
     <element>
         <name>red vines</name>
         <parent>sugar</parent>
         <parent>wire</parent>
-        <color></color>
+        <color>#ff0025</color>
     </element>
     <element>
         <name>reindeer</name>
         <parent>santa</parent>
         <parent>wild animal</parent>
-        <color></color>
+        <color>#ff0</color>
     </element>
     <element>
         <name>ring</name>
         <parent>diamond</parent>
         <parent>metal</parent>
-        <color></color>
+        <color>#0092ff</color>
     </element>
     <element>
         <name>ring pop</name>
         <parent>diamond</parent>
         <parent>sugar</parent>
-        <color></color>
+        <color>#ff2000</color>
     </element>
     <element>
         <name>river</name>
         <parent>water</parent>
         <parent>mountain</parent>
-        <color></color>
+        <color>#009fff</color>
     </element>
     <element>
         <name>robot</name>
         <parent>metal</parent>
         <parent>life</parent>
-        <color></color>
+        <color>#00f</color>
     </element>
     <element>
         <name>rocket</name>
         <parent>airplane</parent>
         <parent>space</parent>
-        <color></color>
+        <color>#0500ff</color>
     </element>
     <element>
         <name>roller coaster</name>
@@ -2558,55 +2558,55 @@ q
         <parent>cart</parent>
         <parent>mountain</parent>
         <parent>train</parent>
-        <color></color>
+        <color>#004eff</color>
     </element>
     <element>
         <name>roomba</name>
         <parent>robot</parent>
         <parent>vacuum cleaner</parent>
-        <color></color>
+        <color>#00dbff</color>
     </element>
     <element>
         <name>rope</name>
         <parent>thread</parent>
         <parent>thread</parent>
-        <color></color>
+        <color>#ff9f00</color>
     </element>
     <element>
         <name>rose</name>
         <parent>love</parent>
         <parent>plant</parent>
-        <color></color>
+        <color>#ffba00</color>
     </element>
     <element>
         <name>ruins</name>
         <parent>time</parent>
         <parent>castle</parent>
-        <color></color>
+        <color>#ffc600</color>
     </element>
     <element>
         <name>ruler</name>
         <parent>wood</parent>
         <parent>pencil</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>rust</name>
         <parent>air</parent>
         <parent>metal</parent>
-        <color></color>
+        <color>#ff3500</color>
     </element>
     <element>
         <name>rv</name>
         <parent>house</parent>
         <parent>car</parent>
-        <color></color>
+        <color>#ff9f00</color>
     </element>
     <element>
         <name>saddle</name>
         <parent>horse</parent>
         <parent>leather</parent>
-        <color></color>
+        <color>#ff4200</color>
     </element>
     <element>
         <name>safety glasses</name>
@@ -2614,139 +2614,139 @@ q
         <parent>engineer</parent>
         <parent>glasses</parent>
         <parent>explosion</parent>
-        <color></color>
+        <color>#0ff</color>
     </element>
     <element>
         <name>sailboat</name>
         <parent>wind</parent>
         <parent>boat</parent>
-        <color></color>
+        <color>#008eff</color>
     </element>
     <element>
         <name>sailor</name>
         <parent>human</parent>
         <parent>boat</parent>
-        <color></color>
+        <color>#50f</color>
     </element>
     <element>
         <name>salt</name>
         <parent>sun</parent>
         <parent>ocean</parent>
-        <color></color>
+        <color>#ff0</color>
     </element>
     <element>
         <name>sand</name>
         <parent>stone</parent>
         <parent>air</parent>
-        <color></color>
+        <color>#ff9600</color>
     </element>
     <element>
         <name>sand castle</name>
         <parent>sand</parent>
         <parent>castle</parent>
-        <color></color>
+        <color>#ff8900</color>
     </element>
     <element>
         <name>sandpaper</name>
         <parent>sand</parent>
         <parent>paper</parent>
-        <color></color>
+        <color>#ff8f00</color>
     </element>
     <element>
         <name>sandstone</name>
         <parent>sand</parent>
         <parent>stone</parent>
-        <color></color>
+        <color>#ffa400</color>
     </element>
     <element>
         <name>sandstorm</name>
         <parent>energy</parent>
         <parent>sand</parent>
-        <color></color>
+        <color>#ff4c00</color>
     </element>
     <element>
         <name>sandwich</name>
         <parent>bread</parent>
         <parent>ham</parent>
-        <color></color>
+        <color>#ffb900</color>
     </element>
     <element>
         <name>santa</name>
         <parent>human</parent>
         <parent>christmas tree</parent>
-        <color></color>
+        <color>#ff0014</color>
     </element>
     <element>
         <name>scalpel</name>
         <parent>doctor</parent>
         <parent>blade</parent>
-        <color></color>
+        <color>#0ff</color>
     </element>
     <element>
         <name>scarecrow</name>
         <parent>human</parent>
         <parent>hay</parent>
-        <color></color>
+        <color>#ff9c00</color>
     </element>
     <element>
         <name>scissors</name>
         <parent>blade</parent>
         <parent>blade</parent>
-        <color></color>
+        <color>#f30</color>
     </element>
     <element>
         <name>scorpion</name>
         <parent>wild animal</parent>
         <parent>dune</parent>
-        <color></color>
+        <color>#f50</color>
     </element>
     <element>
         <name>scythe</name>
         <parent>blade</parent>
         <parent>grass</parent>
-        <color></color>
+        <color>#00f</color>
     </element>
     <element>
         <name>sea</name>
         <parent>water</parent>
         <parent>water</parent>
-        <color></color>
+        <color>#0082ff</color>
     </element>
     <element>
         <name>seagull</name>
         <parent>beach</parent>
         <parent>bird</parent>
-        <color></color>
+        <color>#0060ff</color>
     </element>
     <element>
         <name>seahorse</name>
         <parent>horse</parent>
         <parent>ocean</parent>
-        <color></color>
+        <color>#00ffe8</color>
     </element>
     <element>
         <name>seal</name>
         <parent>dog</parent>
         <parent>sea</parent>
-        <color></color>
+        <color>#00aeff</color>
     </element>
     <element>
         <name>seaplane</name>
         <parent>sea</parent>
         <parent>plane</parent>
-        <color></color>
+        <color>#0070ff</color>
     </element>
     <element>
         <name>seasickness</name>
         <parent>sickness</parent>
         <parent>sea</parent>
-        <color></color>
+        <color>#ff0f00</color>
     </element>
     <element>
         <name>seaweed</name>
         <parent>plant</parent>
         <parent>ocean</parent>
-        <color></color>
+        <color>#5cff00</color>
     </element>
     <element>
         <name>sewing machine</name>
@@ -2754,139 +2754,139 @@ q
         <parent>needle</parent>
         <parent>electricity</parent>
         <parent>needle</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>shark</name>
         <parent>blood</parent>
         <parent>ocean</parent>
-        <color></color>
+        <color>#00abff</color>
     </element>
     <element>
         <name>sheep</name>
         <parent>cloud</parent>
         <parent>livestock</parent>
-        <color></color>
+        <color>#ffb900</color>
     </element>
     <element>
         <name>sheet music</name>
         <parent>music</parent>
         <parent>paper</parent>
-        <color></color>
+        <color>#ffc700</color>
     </element>
     <element>
         <name>shuriken</name>
         <parent>star</parent>
         <parent>blade</parent>
-        <color></color>
+        <color>#ff7f00</color>
     </element>
     <element>
         <name>sickness</name>
         <parent>rain</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#f70</color>
     </element>
     <element>
         <name>skateboard</name>
         <parent>snowboard</parent>
         <parent>wheel</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>skeleton</name>
         <parent>time</parent>
         <parent>corpse</parent>
-        <color></color>
+        <color>#ff7f00</color>
     </element>
     <element>
         <name>ski goggles</name>
         <parent>snow</parent>
         <parent>glasses</parent>
-        <color></color>
+        <color>#ffa300</color>
     </element>
     <element>
         <name>skittles</name>
         <parent>rainbow</parent>
         <parent>sugar</parent>
-        <color></color>
+        <color>#ff00d2</color>
     </element>
     <element>
         <name>sky</name>
         <parent>cloud</parent>
         <parent>air</parent>
-        <color></color>
+        <color>#008bff</color>
     </element>
     <element>
         <name>skyscraper</name>
         <parent>sky</parent>
         <parent>house</parent>
-        <color></color>
+        <color>#0082ff</color>
     </element>
     <element>
         <name>sledge</name>
         <parent>snow</parent>
         <parent>cart</parent>
-        <color></color>
+        <color>#ff9800</color>
     </element>
     <element>
         <name>sloth</name>
         <parent>wild animal</parent>
         <parent>time</parent>
-        <color></color>
+        <color>#b8ff00</color>
     </element>
     <element>
         <name>smog</name>
         <parent>fog</parent>
         <parent>smoke</parent>
-        <color></color>
+        <color>#02f</color>
     </element>
     <element>
         <name>smoke</name>
         <parent>fire</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>smoothie</name>
         <parent>fruit</parent>
         <parent>blender</parent>
-        <color></color>
+        <color>#ff2900</color>
     </element>
     <element>
         <name>snake</name>
         <parent>wire</parent>
         <parent>wild animal</parent>
-        <color></color>
+        <color>#ff6300</color>
     </element>
     <element>
         <name>snow</name>
         <parent>rain</parent>
         <parent>cold</parent>
-        <color></color>
+        <color>#0af</color>
     </element>
     <element>
         <name>snowball</name>
         <parent>human</parent>
         <parent>snow</parent>
-        <color></color>
+        <color>#007fff</color>
     </element>
     <element>
         <name>snowboard</name>
         <parent>snow</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#00ffd4</color>
     </element>
     <element>
         <name>snow globe</name>
         <parent>snow</parent>
         <parent>crystal ball</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>snowman</name>
         <parent>snow</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#006aff</color>
     </element>
     <element>
         <name>snowmobile</name>
@@ -2894,13 +2894,13 @@ q
         <parent>car</parent>
         <parent>snow</parent>
         <parent>motorcycle</parent>
-        <color></color>
+        <color>#006dff</color>
     </element>
     <element>
         <name>soap</name>
         <parent>ash</parent>
         <parent>oil</parent>
-        <color></color>
+        <color>#0fa</color>
     </element>
     <element>
         <name>soda</name>
@@ -2908,115 +2908,115 @@ q
         <parent>carbon dioxide</parent>
         <parent>water</parent>
         <parent>carbon dioxide</parent>
-        <color></color>
+        <color>#ff3c00</color>
     </element>
     <element>
         <name>solar cell</name>
         <parent>sun</parent>
         <parent>tool</parent>
-        <color></color>
+        <color>#0071ff</color>
     </element>
     <element>
         <name>solar system</name>
         <parent>sun</parent>
         <parent>planet</parent>
-        <color></color>
+        <color>#ffa000</color>
     </element>
     <element>
         <name>sound</name>
         <parent>wave</parent>
         <parent>air</parent>
-        <color></color>
+        <color>#00c2ff</color>
     </element>
     <element>
         <name>space</name>
         <parent>star</parent>
         <parent>sky</parent>
-        <color></color>
+        <color>#f0f</color>
     </element>
     <element>
         <name>spaceship</name>
         <parent>astronaut</parent>
         <parent>airplane</parent>
-        <color></color>
+        <color>#02f</color>
     </element>
     <element>
         <name>spider</name>
         <parent>wild animal</parent>
         <parent>thread</parent>
-        <color></color>
+        <color>#ff7f00</color>
     </element>
     <element>
         <name>spacestation</name>
         <parent>house</parent>
         <parent>space</parent>
-        <color></color>
+        <color>#0063ff</color>
     </element>
     <element>
         <name>sphinx</name>
         <parent>human</parent>
         <parent>lion</parent>
-        <color></color>
+        <color>#fb0</color>
     </element>
     <element>
         <name>squirrel</name>
         <parent>mouse</parent>
         <parent>tree</parent>
-        <color></color>
+        <color>#ffd900</color>
     </element>
     <element>
         <name>star</name>
         <parent>night</parent>
         <parent>sky</parent>
-        <color></color>
+        <color>#0b00ff</color>
     </element>
     <element>
         <name>starburst</name>
         <parent>rocket</parent>
         <parent>fruit</parent>
-        <color></color>
+        <color>#ff5700</color>
     </element>
     <element>
         <name>starfish</name>
         <parent>star</parent>
         <parent>fish</parent>
-        <color></color>
+        <color>#ff6c00</color>
     </element>
     <element>
         <name>statue</name>
         <parent>stone</parent>
         <parent>tool</parent>
-        <color></color>
+        <color>#0074ff</color>
     </element>
     <element>
         <name>steak</name>
         <parent>meat</parent>
         <parent>bbq</parent>
-        <color></color>
+        <color>#ff2700</color>
     </element>
     <element>
         <name>steam</name>
         <parent>water</parent>
         <parent>fire</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>steam engine</name>
         <parent>boiler</parent>
         <parent>tool</parent>
-        <color></color>
+        <color>#ff1c00</color>
     </element>
     <element>
         <name>steamboat</name>
         <parent>water</parent>
         <parent>steam engine</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>steel</name>
         <parent>coal</parent>
         <parent>metal</parent>
-        <color></color>
+        <color>#06f</color>
     </element>
     <element>
         <name>steel wool</name>
@@ -3024,151 +3024,151 @@ q
         <parent>wool</parent>
         <parent>steel</parent>
         <parent>wool</parent>
-        <color></color>
+        <color>#fa0</color>
     </element>
     <element>
         <name>stethoscope</name>
         <parent>tool</parent>
         <parent>doctor</parent>
-        <color></color>
+        <color>#ff7f00</color>
     </element>
     <element>
         <name>stone</name>
         <parent>air</parent>
         <parent>lava</parent>
-        <color>#555555</color>
+        <color>#ff0</color>
     </element>
     <element>
         <name>storm</name>
         <parent>energy</parent>
         <parent>cloud</parent>
-        <color></color>
+        <color>#7f00ff</color>
     </element>
     <element>
         <name>story</name>
         <parent>human</parent>
         <parent>campfire</parent>
-        <color></color>
+        <color>#ff8b00</color>
     </element>
     <element>
         <name>sugar</name>
         <parent>energy</parent>
         <parent>juice</parent>
-        <color></color>
+        <color>#50f</color>
     </element>
     <element>
         <name>sun</name>
         <parent>fire</parent>
         <parent>sky</parent>
-        <color></color>
+        <color>#ff5400</color>
     </element>
     <element>
         <name>sundial</name>
         <parent>sun</parent>
         <parent>clock</parent>
-        <color></color>
+        <color>#ff3900</color>
     </element>
     <element>
         <name>sunflower</name>
         <parent>sun</parent>
         <parent>plant</parent>
-        <color></color>
+        <color>#fff100</color>
     </element>
     <element>
         <name>sunglasses</name>
         <parent>sun</parent>
         <parent>glasses</parent>
-        <color></color>
+        <color>#5f0</color>
     </element>
     <element>
         <name>super nova</name>
         <parent>star</parent>
         <parent>explosive</parent>
-        <color></color>
+        <color>#e5ff00</color>
     </element>
     <element>
         <name>surfer</name>
         <parent>wave</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#00eaff</color>
     </element>
     <element>
         <name>sushi</name>
         <parent>seaweed</parent>
         <parent>caviar</parent>
-        <color></color>
+        <color>#ff9c00</color>
     </element>
     <element>
         <name>swamp</name>
         <parent>mud</parent>
         <parent>plant</parent>
-        <color></color>
+        <color>#40ff00</color>
     </element>
     <element>
         <name>sweater</name>
         <parent>wool</parent>
         <parent>tool</parent>
-        <color></color>
+        <color>#ff8a00</color>
     </element>
     <element>
         <name>swedish fish</name>
         <parent>fish</parent>
         <parent>sugar</parent>
-        <color></color>
+        <color>#ff9700</color>
     </element>
     <element>
         <name>sweethearts</name>
         <parent>love</parent>
         <parent>sugar</parent>
-        <color></color>
+        <color>#f50</color>
     </element>
     <element>
         <name>swim goggles</name>
         <parent>water</parent>
         <parent>glasses</parent>
-        <color></color>
+        <color>#00f</color>
     </element>
     <element>
         <name>swimmer</name>
         <parent>human</parent>
         <parent>swim goggles</parent>
-        <color></color>
+        <color>#00adff</color>
     </element>
     <element>
         <name>sword</name>
         <parent>metal</parent>
         <parent>blade</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>swordfish</name>
         <parent>sword</parent>
         <parent>fish</parent>
-        <color></color>
+        <color>#00f</color>
     </element>
     <element>
         <name>tank</name>
         <parent>car</parent>
         <parent>gun</parent>
-        <color></color>
+        <color>#dfff00</color>
     </element>
     <element>
         <name>taser</name>
         <parent>gun</parent>
         <parent>electricity</parent>
-        <color></color>
+        <color>#05f</color>
     </element>
     <element>
         <name>tea</name>
         <parent>water</parent>
         <parent>leaf</parent>
-        <color></color>
+        <color>#ff7000</color>
     </element>
     <element>
         <name>telescope</name>
         <parent>sky</parent>
         <parent>glass</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
 
 the one ring
@@ -3177,49 +3177,49 @@ the one ring
         <name>thread</name>
         <parent>cotton</parent>
         <parent>tool</parent>
-        <color></color>
+        <color>#8700ff</color>
     </element>
     <element>
         <name>tide</name>
         <parent>moon</parent>
         <parent>sea</parent>
-        <color></color>
+        <color>#ff7d00</color>
     </element>
     <element>
         <name>time</name>
         <parent>sand</parent>
         <parent>glass</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>titanic</name>
         <parent>steamboat</parent>
         <parent>iceberg</parent>
-        <color></color>
+        <color>#007fff</color>
     </element>
     <element>
         <name>toast</name>
         <parent>fire</parent>
         <parent>sandwich</parent>
-        <color></color>
+        <color>#ff9a00</color>
     </element>
     <element>
         <name>tobacco</name>
         <parent>fire</parent>
         <parent>plant</parent>
-        <color></color>
+        <color>#ff6400</color>
     </element>
     <element>
         <name>tool</name>
         <parent>metal</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#0040ff</color>
     </element>
     <element>
         <name>toucan</name>
         <parent>bird</parent>
         <parent>rainbow</parent>
-        <color></color>
+        <color>#fff600</color>
     </element>
     <element>
         <name>tractor</name>
@@ -3227,342 +3227,342 @@ the one ring
         <parent>farmer</parent>
         <parent>car</parent>
         <parent>field</parent>
-        <color></color>
+        <color>#00ffef</color>
     </element>
     <element>
         <name>train</name>
         <parent>steel</parent>
         <parent>steam engine</parent>
-        <color></color>
+        <color>#af0</color>
     </element>
     <element>
         <name>treasure</name>
         <parent>treasure map</parent>
         <parent>pirate</parent>
-        <color></color>
+        <color>#ff7f00</color>
     </element>
     <element>
         <name>treasure map</name>
         <parent>pirate</parent>
         <parent>map</parent>
-        <color></color>
+        <color>#ff8f00</color>
     </element>
     <element>
         <name>tree</name>
         <parent>plant</parent>
         <parent>time</parent>
-        <color></color>
+        <color>#78ff00</color>
     </element>
     <element>
         <name>treehouse</name>
         <parent>tree</parent>
         <parent>house</parent>
-        <color></color>
+        <color>#a8ff00</color>
     </element>
     <element>
         <name>trojan horse</name>
         <parent>wood</parent>
         <parent>horse</parent>
-        <color></color>
+        <color>#ff2e00</color>
     </element>
     <element>
         <name>tsunami</name>
         <parent>earthquake</parent>
         <parent>ocean</parent>
-        <color></color>
+        <color>#4000ff</color>
     </element>
     <element>
         <name>tunnel</name>
         <parent>engineer</parent>
         <parent>mountain</parent>
-        <color></color>
+        <color>#0f0</color>
     </element>
     <element>
         <name>turtle</name>
         <parent>sand</parent>
         <parent>egg</parent>
-        <color></color>
+        <color>#f90</color>
     </element>
     <element>
         <name>twilight</name>
         <parent>day</parent>
         <parent>night</parent>
-        <color></color>
+        <color>#f40</color>
     </element>
     <element>
         <name>twix</name>
         <parent>caramelo</parent>
         <parent>cookie</parent>
-        <color></color>
+        <color>#ff3200</color>
     </element>
     <element>
         <name>tyrannosaurus rex</name>
         <parent>meat</parent>
         <parent>dinosaur</parent>
-        <color></color>
+        <color>#ff7f00</color>
     </element>
     <element>
         <name>ufo</name>
         <parent>alien</parent>
         <parent>airplane</parent>
-        <color></color>
+        <color>#0f0</color>
     </element>
     <element>
         <name>umbrella</name>
         <parent>rain</parent>
         <parent>tool</parent>
-        <color></color>
+        <color>#007aff</color>
     </element>
     <element>
         <name>unicorn</name>
         <parent>double rainbow!</parent>
         <parent>life</parent>
-        <color></color>
+        <color>#6000ff</color>
     </element>
     <element>
         <name>vacuum cleaner</name>
         <parent>electricity</parent>
         <parent>broom</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>vampire</name>
         <parent>blood</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#ff2700</color>
     </element>
     <element>
         <name>vase</name>
         <parent>plant</parent>
         <parent>pottery</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>vegetable</name>
         <parent>fruit</parent>
         <parent>field</parent>
-        <color></color>
+        <color>#ff7900</color>
     </element>
     <element>
         <name>village</name>
         <parent>house</parent>
         <parent>house</parent>
-        <color></color>
+        <color>#ffc600</color>
     </element>
     <element>
         <name>volcano</name>
         <parent>earth</parent>
         <parent>lava</parent>
-        <color>#FF2200</color>
+        <color>#ff0046</color>
     </element>
     <element>
         <name>vulture</name>
         <parent>bird</parent>
         <parent>corpse</parent>
-        <color></color>
+        <color>#0035ff</color>
     </element>
     <element>
         <name>wagon</name>
         <parent>horse</parent>
         <parent>cart</parent>
-        <color></color>
+        <color>#ff3a00</color>
     </element>
     <element>
         <name>wall</name>
         <parent>brick</parent>
         <parent>brick</parent>
-        <color></color>
+        <color>#ff6500</color>
     </element>
     <element>
         <name>wand</name>
         <parent>wizard</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#f50</color>
     </element>
     <element>
         <name>warrior</name>
         <parent>sword</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#fc0</color>
     </element>
     <element>
         <name>watch</name>
         <parent>human</parent>
         <parent>clock</parent>
-        <color></color>
+        <color>#f0f</color>
     </element>
     <element>
         <name>water</name>
         <parent>basic element</parent>
         <parent>basic element</parent>
-        <color></color>
+        <color>#009aff</color>
     </element>
     <element>
         <name>waterfall</name>
         <parent>mountain</parent>
         <parent>river</parent>
-        <color></color>
+        <color>#6fff00</color>
     </element>
     <element>
         <name>water gun</name>
         <parent>water</parent>
         <parent>gun</parent>
-        <color></color>
+        <color>#bf0</color>
     </element>
     <element>
         <name>water lilly</name>
         <parent>flower</parent>
         <parent>pond</parent>
-        <color></color>
+        <color>#ff0800</color>
     </element>
     <element>
         <name>water pipe</name>
         <parent>water</parent>
         <parent>pipe</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>wave</name>
         <parent>wind</parent>
         <parent>sea</parent>
-        <color></color>
+        <color>#007eff</color>
     </element>
     <element>
         <name>wax</name>
         <parent>bee</parent>
         <parent>beehive</parent>
-        <color></color>
+        <color>#ff8200</color>
     </element>
     <element>
         <name>web</name>
         <parent>spider</parent>
         <parent>thread</parent>
-        <color></color>
+        <color>#00a3ff</color>
     </element>
     <element>
         <name>werewolf</name>
         <parent>wolf</parent>
         <parent>human</parent>
-        <color></color>
+        <color>#15ff00</color>
     </element>
     <element>
         <name>wheat</name>
         <parent>field</parent>
         <parent>farmer</parent>
-        <color></color>
+        <color>#b1ff00</color>
     </element>
     <element>
         <name>wheel</name>
         <parent>tool</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#00f</color>
     </element>
     <element>
         <name>wild animal</name>
         <parent>life</parent>
         <parent>forest</parent>
-        <color></color>
+        <color>#ffb400</color>
     </element>
     <element>
         <name>wild boar</name>
         <parent>pig</parent>
         <parent>wild animal</parent>
-        <color></color>
+        <color>#edff00</color>
     </element>
     <element>
         <name>willy wonka</name>
         <parent>engineer</parent>
         <parent>sugar</parent>
-        <color></color>
+        <color>#f00</color>
     </element>
     <element>
         <name>wind</name>
         <parent>air</parent>
         <parent>pressure</parent>
-        <color></color>
+        <color>#00a0ff</color>
     </element>
     <element>
         <name>wind turbine</name>
         <parent>windmill</parent>
         <parent>electricity</parent>
-        <color></color>
+        <color>#ffbf00</color>
     </element>
     <element>
         <name>windmill</name>
         <parent>wind</parent>
         <parent>house</parent>
-        <color></color>
+        <color>#0062ff</color>
     </element>
     <element>
         <name>wine</name>
         <parent>alcohol</parent>
         <parent>fruit</parent>
-        <color></color>
+        <color>#ff6400</color>
     </element>
     <element>
         <name>wire</name>
         <parent>electricity</parent>
         <parent>metal</parent>
-        <color></color>
+        <color>#ff0016</color>
     </element>
     <element>
         <name>witch</name>
         <parent>wizard</parent>
         <parent>broom</parent>
-        <color></color>
+        <color>#90f</color>
     </element>
     <element>
         <name>wizard</name>
         <parent>human</parent>
         <parent>energy</parent>
-        <color></color>
+        <color>#ff00d2</color>
     </element>
     <element>
         <name>wolf</name>
         <parent>wild animal</parent>
         <parent>moon</parent>
-        <color></color>
+        <color>#04f</color>
     </element>
     <element>
         <name>wood</name>
         <parent>tree</parent>
         <parent>tool</parent>
-        <color></color>
+        <color>#ff8600</color>
     </element>
     <element>
         <name>woodpecker</name>
         <parent>bird</parent>
         <parent>wood</parent>
-        <color></color>
+        <color>#f03</color>
     </element>
     <element>
         <name>wool</name>
         <parent>sheep</parent>
         <parent>tool</parent>
-        <color></color>
+        <color>#ff9200</color>
     </element>
     <element>
         <name>wrapping paper</name>
         <parent>gift</parent>
         <parent>paper</parent>
-        <color></color>
+        <color>#ff2900</color>
     </element>
     <element>
         <name>yoda</name>
         <parent>jedi</parent>
         <parent>swamp</parent>
-        <color></color>
+        <color>#b2ff00</color>
     </element>
     <element>
         <name>yogurt</name>
         <parent>bacteria</parent>
         <parent>milk</parent>
-        <color></color>
+        <color>#ffe300</color>
     </element>
     <element>
         <name>zombie</name>
         <parent>life</parent>
         <parent>corpse</parent>
-        <color></color>
+        <color>#ff4000</color>
     </element>
 </alchemy>
