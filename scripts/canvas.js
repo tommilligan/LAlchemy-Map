@@ -69,34 +69,38 @@ function add_SVG_children(G, xml, ename, rl) { //Adds children of node ename to 
         }
     });
 }    
-function updateSVG(xml) {
+function updateSVG(xml, user_input, G) { // if wishing to append, provide G: jsNetworkX Graph object to append to
+    if (typeof G === 'undefined') {G = false};
     
-    //Empty canvas
-    $('#canvas').empty();
-    $('#message').empty();
-    user_input = $('#search').val()
-    
-    //New jsNetworkX object
-    var G = new jsnx.DiGraph();
-     
-    //Add main element
     var central_element = $(xml).find('name').filter(function(){
         return $(this).text() == user_input;
     }).first().closest('element');
     if(central_element.length < 1) {
-        $('#message').append("<i>invalid search: "+user_input+"</i><br><br>");
+        $('#parents').append("<br><br><i>invalid search: "+user_input+"</i>");
         return false;
     }
     
+    //Empty canvas if not appending
+    if(G === false) {
+        console.log('clearing');
+        var G = new jsnx.DiGraph();
+        $('#canvas').empty();
+        $('#parents').empty();
+    }
+    else {
+        $('#parents').append('<br>');
+    }
+    $('#counter').empty();
+     
+    //Add main element    
     var ename = $(central_element).find('name').text();
     G.addNode(ename, {size: 40, color: $(central_element).find('color').text()})
     
     // Write parent names in HTML
-    $('#parents').empty();
-    $('#parents').append('Possible parents: ');
+    $('#parents').append('Possible parents of '+ename+': ');
     $(central_element).find('parent').each(function(){
         var pname = $(this).text();
-        $('#parents').append(pname+', ');
+        $('#parents').append('<span class="jslink namecontainer">'+pname+'</span>, ');
     });
     
     // Add nodes and edges to graph
@@ -117,7 +121,7 @@ function updateSVG(xml) {
     }
     
     //Message updates
-    $('#message').append("displaying "+node_list.length+" of 550 elements");
+    $('#counter').append("displaying "+node_list.length+" of 550 elements");
     
     //Draw graph
     jsnx.draw(G, {
@@ -131,8 +135,67 @@ function updateSVG(xml) {
         nodeAttr: {
             r: function(d) {
                 return d.data.size*1; // Adjust this for scale factor if needed. Adjust size property for size
-            //.call(dragCircle)
-            //.on('click', clickCircle);
+            }
+        },
+        nodeStyle: {
+            stroke: function(d) {
+                return d.data.color;
+            },
+            fill: function(d) {
+                return increase_brightness(d.data.color, 80);
+            },
+            cursor: 'pointer'
+        },
+        edgeStyle: {
+            fill: "#AAAAAA",
+            'stroke-width': 4
+        },
+        stickyDrag: true
+    });
+    
+    //Add interaction functionality - http://stackoverflow.com/questions/19931307/d3-differentiate-between-click-and-drag-for-an-element-which-has-a-drag-behavior
+    svg_nodes = d3.selectAll('.node');
+    svg_nodes.on('dragstart', function () {
+        d3.event.sourceEvent.stopPropagation(); // supress click if dragging
+    });
+    svg_nodes.on('click', function () {
+        if (d3.event.defaultPrevented) return; // click suppressed if dragging
+        node_name = d3.event['path'][0]['__data__']['node'];
+        updateSVG(xml, node_name);
+    });
+    
+    return G;
+}
+
+function startPage(xml) {
+    //New jsNetworkX object
+    var G = new jsnx.DiGraph();
+     
+    //Get data
+    var element = "little alchemy"
+    var children = ["combine", "elements", "make", "anything", "network", "discover", "simple"];
+
+    // Add nodes to graph
+    G.addNode(element, {size: 60, color: '#ad35ff'})
+    G.addNodesFrom(children, {size: 30, color: '#DEAEFF'});
+
+    // Connect nodes with edges
+    for (i=0; i<children.length; ++i) {
+        G.addEdge(element, children[i]);
+    }
+
+    //Draw graph
+    jsnx.draw(G, {
+        element: '#canvas',  
+        weighted: false,
+        withLabels: true,
+        layoutAttr: {
+            charge: -500, //default -120
+            linkDistance: 100
+        },
+        nodeAttr: {
+            r: function(d) {
+                return d.data.size*1;
             }
         },
         nodeStyle: {
@@ -150,76 +213,25 @@ function updateSVG(xml) {
         }
     });
     
-    //Add interaction functionality
-    svg_nodes = d3.selectAll('.node');
-    svg_nodes.on('dragstart', function () {
-        d3.event.sourceEvent.stopPropagation();
-    });
-    svg_nodes.on('click', function () {
-        if (d3.event.defaultPrevented) return; // click suppressed
-        console.log('clicked: '+d3.event['path'][0]['__data__']['node']);
-        // insert new drwaw command here
-    });
-    
-}
-$(document).ready(function(){
     $('#searchform').submit(function(){
-        $.ajax({
-            type: "GET",
-            url: XMLpath,
-            dataType: "xml",
-            success: updateSVG
-        });
+        updateSVG(xml, $('#search').val());
     });
-});
-
-$(document).ready(function(){
     $("#plotAllElements").click(function() {
-        alert( "Handler for .click() called." );
+        G = updateSVG(xml, 'earth');
+        G = updateSVG(xml, 'air', G);
+        G = updateSVG(xml, 'fire', G);
+        G = updateSVG(xml, 'water', G);
     });
-});
-
-//New jsNetworkX object
-var G = new jsnx.Graph();
- 
-//Get data
-var element = "little alchemy"
-var children = ["combine", "elements", "make", "anything", "network", "discover", "simple"];
-
-// Add nodes to graph
-G.addNode(element, {size: 60, color: '#ad35ff'})
-G.addNodesFrom(children, {size: 30, color: '#DEAEFF'});
-
-// Connect nodes with edges
-for (i=0; i<children.length; ++i) {
-    G.addEdge(element, children[i]);
+    $(document).on('click', ".namecontainer", function() { //use .on() as dynamic span not present at load time
+        updateSVG(xml, $(this).text());
+    });
 }
 
-//Draw graph
-jsnx.draw(G, {
-    element: '#canvas',  
-    weighted: false,
-    withLabels: true,
-    layoutAttr: {
-        charge: -500, //default -120
-        linkDistance: 100
-    },
-    nodeAttr: {
-        r: function(d) {
-            return d.data.size*1;
-        }
-    },
-    nodeStyle: {
-        stroke: function(d) {
-            return d.data.color;
-        },
-        fill: function(d) {
-            return increase_brightness(d.data.color, 80);
-        },
-        cursor: 'pointer'
-    },
-    edgeStyle: {
-        fill: "#AAAAAA",
-        'stroke-width': 4
-    }
+$(document).ready(function(){
+    $.ajax({
+        type: "GET",
+        url: XMLpath,
+        dataType: "xml",
+        success: startPage
+    });
 });

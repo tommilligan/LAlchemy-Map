@@ -7,8 +7,8 @@
     </element>
     <element>
         <name>air</name>
-        <parent>basic element</parent>
-        <parent>basic element</parent>
+        <parent>primary element</parent>
+        <parent>primary element</parent>
         <color>#0084ff</color>
     </element>
     <element>
@@ -951,8 +951,8 @@
     </element>
     <element>
         <name>earth</name>
-        <parent>basic element</parent>
-        <parent>basic element</parent>
+        <parent>primary element</parent>
+        <parent>primary element</parent>
         <color>#0023ff</color>
     </element>
     <element>
@@ -1102,8 +1102,8 @@
     </element>
     <element>
         <name>fire</name>
-        <parent>basic element</parent>
-        <parent>basic element</parent>
+        <parent>primary element</parent>
+        <parent>primary element</parent>
         <color>#ff6f00</color>
     </element>
     <element>
@@ -3393,8 +3393,8 @@ the one ring
     </element>
     <element>
         <name>water</name>
-        <parent>basic element</parent>
-        <parent>basic element</parent>
+        <parent>primary element</parent>
+        <parent>primary element</parent>
         <color>#009aff</color>
     </element>
     <element>

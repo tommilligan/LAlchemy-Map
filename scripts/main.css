@@ -70,22 +70,24 @@ html , body {
 #holder {
     width: 100%;
 }
-#message-wrapper, #parent-wrapper{
+#counter-wrapper, #parent-wrapper{
     position: fixed;
     width: 300px;
     left: 15px;
+    z-index: 90;
 }
-#message-wrapper {
+#counter-wrapper {
     bottom: 15px;
 }
 #parent-wrapper{
     top: 100px;
 }
-#messagebox, #parentbox {
+#counterbox, #parentbox {
     padding: 4px;
     display: inline-block;
     font-size: 12px;
-    background-color: #CCCCCC;
+    background-color: rgba(210, 210, 210, 0.5);
+    z-index: 100;
 }
 #github-button, #LA-button {
     position: fixed;
