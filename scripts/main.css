@@ -56,19 +56,16 @@ form {
 /* Horizontal alignment - http://stackoverflow.com/questions/6487085/two-divs-one-fixed-width-the-other-the-rest */
 #topbar-wrapper {
     background-color: #FBE7FF;
-    border: 2px dashed #00f
 }
 #logo-wrapper {
     float: left;
     min-height: 50px;
     padding: 5px;
-    border: 2px dashed #f0f
 }
 #head-wrapper {
     overflow: hidden;
     min-height: 50px;
     padding: 20px;
-    border: 2px dashed #0ff
 }
 #searchbar {
     margin-bottom: 5px;
