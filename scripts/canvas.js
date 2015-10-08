@@ -4,16 +4,13 @@
 function increase_brightness(hex, percent){
     // strip the leading # if it's there
     hex = hex.replace(/^\s*#|\s*$/g, '');
-
     // convert 3 char codes --> 6, e.g. `E0F` --> `EE00FF`
     if(hex.length == 3){
         hex = hex.replace(/(.)/g, '$1$1');
     }
-
     var r = parseInt(hex.substr(0, 2), 16),
         g = parseInt(hex.substr(2, 2), 16),
         b = parseInt(hex.substr(4, 2), 16);
-
     return '#' +
        ((0|(1<<8) + r + (256 - r) * percent / 100).toString(16)).substr(1) +
        ((0|(1<<8) + g + (256 - g) * percent / 100).toString(16)).substr(1) +
@@ -22,10 +19,16 @@ function increase_brightness(hex, percent){
 function log10(val) {
   return Math.log(val) / Math.LN10;
 }
-function addElementField() { // Add another field to form http://stackoverflow.com/questions/6099301/dynamically-adding-html-form-field-using-jquery
-    var newField = $('<div><input type="text" class="searchText" autocomplete="off" /></div>');
+function addField(inpVal) {
+    console.log(inpVal);
+    inpVal = typeof inpVal === 'undefined' ? '' : inpVal;
+    var newField = $('<div class="newField"><input type="text" class="searchText" value="'+inpVal+'" autocomplete="off" /></div>');
     $('#addField-wrapper').before(newField);
-    return true
+}
+function removeFields() {
+    $('.newField').each(function(){
+        $(this).remove();
+    });
 }
 
 var XMLpath = "scripts/elements.xml";
@@ -168,7 +171,9 @@ function updateSVG(xml, user_input, G) { // if wishing to append, provide G: jsN
     svg_nodes.on('click', function () {
         if (d3.event.defaultPrevented) return; // click suppressed if dragging
         node_name = d3.event['path'][0]['__data__']['node'];
-        updateSVG(xml, node_name);
+        removeFields();
+        $('#search1').val(node_name);
+        $("#searchform").trigger("submit");
     });
     
     return G;
@@ -220,8 +225,9 @@ function startPage(xml) {
         }
     });
     
+    //Interaction events
     $('#addField').click(function(){
-        addElementField();
+        addField()
     });
     $('#searchform').submit(function(){
         G = updateSVG(xml, $('#search1').val());
@@ -231,13 +237,17 @@ function startPage(xml) {
         });
     });
     $("#plotAllElements").click(function() {
-        G = updateSVG(xml, 'earth');
-        G = updateSVG(xml, 'air', G);
-        G = updateSVG(xml, 'fire', G);
-        G = updateSVG(xml, 'water', G);
+        removeFields();
+        $('#search1').val('earth');
+        addField('air');
+        addField('fire');
+        addField('water');
+        $("#searchform").trigger("submit");
     });
     $(document).on('click', ".namecontainer", function() { //use .on() as dynamic span not present at load time
-        updateSVG(xml, $(this).text());
+        removeFields();
+        $('#search1').val($(this).text());
+        $("#searchform").trigger("submit");
     });
 }
 
